@@ -11,7 +11,7 @@ int main(){
 	network_socket = socket(AF_INET, SOCK_STREAM, 0);
 	
 	//specify an adress for the socket
-	struct sockaddr_in sever_address;
+	struct sockaddr_in server_address;
 	//type of adress
 	server_address.sin_family = AF_INET;
 	server_address.sin_port = htons(9002);

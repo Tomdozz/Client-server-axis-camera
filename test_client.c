@@ -1,8 +1,9 @@
-	#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
+#include <string.h>
 
 int main(){
 	
@@ -22,7 +23,7 @@ int main(){
 	if(connection_status == -1){
 		printf("There was an error making the connection");
 	}
-	char *hello_message = "helo from clien";
+	char *hello_message = "helo frosdaasdasdaasm clien";
 	send(network_socket, hello_message, strlen(hello_message),0);
 	char server_response[256];
 	//recive data

@@ -16,7 +16,7 @@ int main(){
 	//type of adress
 	server_address.sin_family = AF_INET;
 	server_address.sin_port = htons(9002);
-	server_address.sin_addr.s_addr = INADDR_ANY;
+	server_address.sin_addr.s_addr = inet_addr("192.168.20.250");
 	
 	int connection_status = connect(network_socket, (struct sockaddr *) &server_address, sizeof(server_address));
 	//check connectionstatus	

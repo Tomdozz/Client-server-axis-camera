@@ -1,0 +1,144 @@
+
+----- System log -----
+
+2018-09-20T13:45:35.012+02:00 axis-accc8e2dc542 [ WARNING ] scheduled[739]: Timezone was manipulated!
+2018-09-20T13:45:41.086+02:00 axis-accc8e2dc542 [ WARNING ] actionengined[1066]: Error parsing: '/etc/actionengine/system/configurations/0000000003.conf': No action template 'com.axis.action.leveling_assistant' found
+2018-09-20T13:45:41.105+02:00 axis-accc8e2dc542 [ WARNING ] actionengined[1066]: Error parsing: '/etc/actionengine/system/configurations/0000000005.conf': No action template 'com.axis.action.unlimited.prioritized_text' found
+2018-09-20T13:45:42.157+02:00 axis-accc8e2dc542 [ WARNING ] disks[771]: disk.c : Disk disruption detection status changed for SD_DISK. Status = 'disruption'
+2018-09-20T13:45:42.288+02:00 axis-accc8e2dc542 [ WARNING ] disks[771]: disk.c : Disk disruption detection status changed for NetworkShare. Status = 'disruption'
+2018-09-20T13:45:45.511+02:00 axis-accc8e2dc542 [ WARNING ] systemd[1]: upnp.service: State 'stop-sigterm' timed out. Killing.
+2018-09-20T13:45:45.570+02:00 axis-accc8e2dc542 [ WARNING ] systemd[1]: upnp.service: Failed with result 'signal'.
+2018-09-20T14:03:13.269+02:00 axis-accc8e2dc542 [ INFO    ] focusd[1043]: max_pos now is 190
+2018-09-20T14:03:13.269+02:00 axis-accc8e2dc542 [ INFO    ] focusd[1043]: max_pos was 191
+2018-09-20T14:03:13.271+02:00 axis-accc8e2dc542 [ INFO    ] focusd[1043]: focusd[1043]: max_pos was 191
+2018-09-20T14:03:13.272+02:00 axis-accc8e2dc542 [ INFO    ] focusd[1043]: focusd[1043]: max_pos now is 190
+2018-09-20T14:03:17.769+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: Action rule "overlay_text" is starting action "Overlay Text"
+2018-09-20T14:04:18.374+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 22 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:05:21.734+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 21 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:06:43.627+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 8 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:07:43.686+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 32 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:08:43.746+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 12 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:09:43.807+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 5 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:10:43.866+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 3 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:11:43.926+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 3 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:12:43.986+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 5 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:13:44.046+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 4 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:14:44.106+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 11 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:15:44.166+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 7 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:16:44.226+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 7 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:17:44.286+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 8 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:18:44.346+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 26 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:19:17.257+02:00 axis-accc8e2dc542 [ INFO    ] focusd[1043]: max_pos was 189
+2018-09-20T14:19:17.258+02:00 axis-accc8e2dc542 [ INFO    ] focusd[1043]: max_pos now is 189
+2018-09-20T14:19:17.260+02:00 axis-accc8e2dc542 [ INFO    ] focusd[1043]: focusd[1043]: max_pos was 189
+2018-09-20T14:19:17.261+02:00 axis-accc8e2dc542 [ INFO    ] focusd[1043]: focusd[1043]: max_pos now is 189
+2018-09-20T14:19:17.263+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 20 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:19:19.039+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: Action rule "overlay_text" is starting action "Overlay Text"
+2018-09-20T14:20:21.824+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 67 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:21:27.807+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 11 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:22:28.544+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 54 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:23:44.647+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 15 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:24:44.706+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 16 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:25:44.766+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 56 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:26:44.826+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 50 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:27:44.886+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 36 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:28:44.946+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 46 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:29:45.006+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 37 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:30:45.066+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 11 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:31:45.126+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 9 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:32:45.186+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 26 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:33:45.246+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 9 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:34:45.306+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 40 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:35:45.366+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 29 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:36:45.426+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 16 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:37:45.486+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 31 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:38:45.546+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 2 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:39:45.606+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 28 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:40:45.666+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 25 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:41:45.726+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 37 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:42:45.786+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 18 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:43:45.846+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 30 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:44:45.906+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 40 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:45:45.966+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 25 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:46:46.026+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 28 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:47:46.086+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 11 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:48:46.146+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 41 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:49:46.206+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 49 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:50:46.266+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 36 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:51:46.436+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 36 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:52:46.497+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 70 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:53:46.556+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 53 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:54:46.616+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 19 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:55:46.676+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 28 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:56:46.736+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 9 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:57:46.796+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 7 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:58:46.856+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 11 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T14:59:46.916+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 26 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:00:46.976+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 6 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:01:47.036+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 19 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:02:47.096+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 14 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:03:47.156+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 64 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:04:47.216+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 27 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:05:47.276+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 64 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:06:47.336+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 40 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:07:47.396+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 23 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:08:47.456+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 10 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:09:47.516+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 22 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:10:47.576+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 17 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:11:47.636+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 55 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:12:47.696+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 33 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:13:47.756+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 31 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:14:47.816+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 20 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:15:47.876+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 12 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:16:47.936+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 5 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:17:47.996+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 27 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:18:48.056+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 11 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:19:48.116+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 45 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:20:48.176+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 3 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:21:48.236+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 12 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:22:48.296+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 18 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:23:48.356+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 12 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:24:48.416+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 48 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:25:48.476+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 31 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:26:48.536+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 30 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:27:48.596+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 16 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:28:48.656+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 22 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:29:48.716+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 43 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:30:48.776+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 40 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:31:48.836+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 38 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:32:48.896+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 45 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:33:48.956+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 91 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:34:49.016+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 51 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:35:49.076+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 56 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:36:49.136+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 25 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:37:49.196+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 32 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:38:49.256+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 29 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:39:49.316+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 42 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:40:49.376+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 59 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:41:49.436+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 35 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:42:49.496+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 58 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:43:49.556+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 23 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:44:49.727+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 32 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:45:49.786+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 41 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:46:49.846+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 21 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:47:49.906+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 21 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:48:49.966+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 15 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:49:50.026+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 23 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:50:50.086+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 13 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:51:50.146+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 6 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:52:50.206+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 30 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:53:50.266+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 19 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:54:50.326+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 9 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T15:55:04.445+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: Action rule "overlay_text" is starting action "Overlay Text"
+2018-09-20T15:58:37.755+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: Action rule "overlay_text" is starting action "Overlay Text"
+2018-09-20T15:59:44.829+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 10 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T16:00:50.686+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 5 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T16:01:08.793+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: Action rule "overlay_text" is starting action "Overlay Text"
+2018-09-20T16:02:04.343+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: Action rule "overlay_text" is starting action "Overlay Text"
+2018-09-20T16:03:10.140+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 9 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T16:04:12.088+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 9 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T16:04:43.608+02:00 axis-accc8e2dc542 [ INFO    ] upload.cgi: Uploaded '/tmp/serverApp_1_0_mipsisa32r2el.eap' size:32702
+2018-09-20T16:04:43.610+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: message repeated 17 times: [ Action rule "overlay_text" is starting action "Overlay Text"]
+2018-09-20T16:04:45.112+02:00 axis-accc8e2dc542 [ NOTICE  ] dbus[474]: [system] Reloaded configuration
+2018-09-20T16:04:45.299+02:00 axis-accc8e2dc542 [ INFO    ] upload.cgi: Package /tmp/serverApp_1_0_mipsisa32r2el.eap installation OK
+2018-09-20T16:04:46.647+02:00 axis-accc8e2dc542 [ NOTICE  ] actionengined[1065]: Action rule "overlay_text" is starting action "Overlay Text"

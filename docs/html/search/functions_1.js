@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['capture_5fburst_5ffree',['capture_burst_free',['../capture_8h.html#a86ad6a85a974c8b2b15a46724fe2b776',1,'capture.h']]],
+  ['capture_5fclose_5fnative',['capture_close_native',['../capture_8h.html#a4a2f00231fdfe41dc13eec88dc3785b0',1,'capture.h']]],
+  ['capture_5fclose_5fstream',['capture_close_stream',['../capture_8h.html#a6b4f781f1304f4ca232b4fd28c390855',1,'capture.h']]],
+  ['capture_5fframe_5fdata',['capture_frame_data',['../capture_8h.html#a8e894677776d3c87fe6b89c50bb672a8',1,'capture.h']]],
+  ['capture_5fframe_5ffree',['capture_frame_free',['../capture_8h.html#a2f638703b12683a34174f2e745ee4726',1,'capture.h']]],
+  ['capture_5fframe_5fheight',['capture_frame_height',['../capture_8h.html#a27df3bd74459cf2295db6b9a5c85f8c7',1,'capture.h']]],
+  ['capture_5fframe_5fsize',['capture_frame_size',['../capture_8h.html#af23dafedfa149bd822e65c99660e91ce',1,'capture.h']]],
+  ['capture_5fframe_5fstride',['capture_frame_stride',['../capture_8h.html#a7e1ef9be9eef6444bcd321ea9555a339',1,'capture.h']]],
+  ['capture_5fframe_5ftimestamp',['capture_frame_timestamp',['../capture_8h.html#a11036b9735fc884447eae201b1a551ec',1,'capture.h']]],
+  ['capture_5fframe_5fwidth',['capture_frame_width',['../capture_8h.html#a3fb0d2af46e8dbf080ccceb55db4dd78',1,'capture.h']]],
+  ['capture_5fget_5fburst',['capture_get_burst',['../capture_8h.html#a99cbbde0f7e3a423f440bfba4cc1998d',1,'capture.h']]],
+  ['capture_5fget_5fframe',['capture_get_frame',['../capture_8h.html#a64e6daae3c3a8c2b0f8809e32891d58e',1,'capture.h']]],
+  ['capture_5fget_5fimage_5fnative',['capture_get_image_native',['../capture_8h.html#a6300a34cce5bbaac769840d57102ba1e',1,'capture.h']]],
+  ['capture_5fget_5foptimal_5fresolutions_5flist',['capture_get_optimal_resolutions_list',['../capture_8h.html#ad6fd378692960dd396b608c480840b81',1,'capture.h']]],
+  ['capture_5fget_5fresolutions_5flist',['capture_get_resolutions_list',['../capture_8h.html#a69099dceedc3264fb7665dba2f9080eb',1,'capture.h']]],
+  ['capture_5fopen_5fnative',['capture_open_native',['../capture_8h.html#a1b29748870a9afb7c65a4e04dcc3bbd7',1,'capture.h']]],
+  ['capture_5fopen_5fnative_5fchannel',['capture_open_native_channel',['../capture_8h.html#a12d5ca681b891dfdef3c9a1b7595fe2f',1,'capture.h']]],
+  ['capture_5fopen_5fstream',['capture_open_stream',['../capture_8h.html#a0c8455627728c4bb5194632b8813a67c',1,'capture.h']]],
+  ['capture_5fstart_5fnative',['capture_start_native',['../capture_8h.html#a1834be2e2e1b4cba8f7045a58a6f95dc',1,'capture.h']]],
+  ['capture_5fstream_5finfo_5ffree',['capture_stream_info_free',['../capture_8h.html#a57524b713c795fd0b42d937ebfcdd177',1,'capture.h']]],
+  ['capture_5fstream_5finfo_5fget',['capture_stream_info_get',['../capture_8h.html#a60e0c6c191fd6057dffa8418295889eb',1,'capture.h']]],
+  ['capture_5fstream_5finfo_5fprops',['capture_stream_info_props',['../capture_8h.html#a8ab70da5de06b41dfd9bfc14aa53039b',1,'capture.h']]],
+  ['capture_5fstream_5finfo_5ftype',['capture_stream_info_type',['../capture_8h.html#a4e408fad85f7ba4ee36a589fb0111eef',1,'capture.h']]]
+];

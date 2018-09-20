@@ -10,13 +10,13 @@ int main(){
 	//create socket int and store socket
 	int network_socket;
 	network_socket = socket(AF_INET, SOCK_STREAM, 0);
-	
+	printf("starting application");
 	//specify an adress for the socket
 	struct sockaddr_in server_address;
 	//type of adress
 	server_address.sin_family = AF_INET;
 	server_address.sin_port = htons(9002);
-	server_address.sin_addr.s_addr = inet_addr("192.168.20.250");
+	server_address.sin_addr.s_addr = inet_addr("192.168.20.247");
 	
 	int connection_status = connect(network_socket, (struct sockaddr *) &server_address, sizeof(server_address));
 	//check connectionstatus	

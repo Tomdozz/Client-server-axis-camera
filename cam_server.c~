@@ -7,9 +7,18 @@
 #include <netinet/in.h>
 #include <syslog.h>
 #include <unistd.h>
-//#include <capture.h>
+#include <capture.h>
 
 int main(){
+	//---imagecapture props---
+	media_frame *frame;
+	void *data;
+	media_stream *stream;
+	size_t img_size;
+	char *cli_img_desc;
+	//------------------------
+
+	char *ip_adress = "192.168.20.250";
 	int server_socket, client_socket, read_size;
 	char client_message[2000]; 
 	//printf("test");
@@ -43,10 +52,25 @@ int main(){
 	if(client_socket < 0){
 		syslog(LOG_ERR, "accept fail");
 	}
+	size_t r;
 	//Recive message form client
 	while((read_size = recv(client_socket, client_message, 2000,0)) > 0){
-		printf("the client sent the data: %s", client_message);		
-		write(client_socket,client_message,strlen(client_message));
+		printf("the client sent the data: %s", client_message);	
+		char *testMessage = "testing 2 server camera";	
+		//write(client_socket,testMessage,strlen(client_message));
+		
+		cli_img_desc = "fps=25&sdk_format=Y800&resolution=350x288&rotation=180"; 
+		stream = capture_open_stream(IMAGE_JPEG, cli_img_desc);
+		//while(1){
+			frame = capture_get_frame(stream);
+			data = capture_frame_data(stream);
+			img_size = capture_frame_size(stream);
+			unsigned char row_data[img_size];
+			for(r = 0; r<img_size; r++){
+				row_data[r] = ((unsigned char *)data)[r];
+			}
+			write(client_socket,row_data,strlen(client_message));		
+		//}
 
 	}
 	if(read_size == 0){

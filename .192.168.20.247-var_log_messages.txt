@@ -1,0 +1,344 @@
+
+----- System log -----
+
+2018-02-08T12:29:52.510+00:00 axis-00408ce8dd13 [ ERR     ] parhand[621]: Failed to write to file. Broken pipe
+2018-02-08T12:34:40.447+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-02-08T12:37:04.631+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-02-08T12:43:58.163+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-02-08T12:46:41.999+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-02-08T12:51:12.573+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-02-08T12:52:34.157+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 4 times: [potentially unexpected fatal signal 11.]
+2018-02-08T12:55:54.721+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-02-08T12:56:55.218+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 4 times: [potentially unexpected fatal signal 11.]
+2018-02-08T12:58:04.487+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 2 times: [potentially unexpected fatal signal 11.]
+2018-02-08T13:01:37.868+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-02-08T13:03:04.787+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 4 times: [potentially unexpected fatal signal 11.]
+2018-02-08T13:04:04.847+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 2 times: [potentially unexpected fatal signal 11.]
+2018-09-06T10:18:00.669+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: Failed to unpack /tmp/hello_world: (tar: invalid magic#012tar: short read) (tar: invalid tar magic)
+2018-09-06T10:19:23.901+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: Failed to unpack /tmp/hello_world: (tar: invalid magic#012tar: short read) (tar: invalid tar magic)
+2018-09-06T10:19:35.207+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: Failed to unpack /tmp/hello_world.c: (tar: invalid magic#012tar: short read) (tar: invalid tar magic)
+2018-09-13T17:09:39.360+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-13T17:10:12.728+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T09:13:43.480+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: 'test' not found or not executable
+2018-09-14T09:14:12.039+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: 'test' not found or not executable
+2018-09-14T09:15:03.121+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: 'test' not found or not executable
+2018-09-14T09:35:19.007+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T09:36:20.596+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: 'test' not found or not executable
+2018-09-14T09:42:50.191+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T09:50:08.826+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T09:51:02.962+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T09:53:26.478+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T09:54:23.218+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T11:41:20.145+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T12:25:09.554+02:00 axis-00408ce8dd13 [ ERR     ] monolith[437]: (monolith) g_source_set_callback: assertion 'source != NULL' failed
+2018-09-14T12:25:09.556+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T12:25:09.787+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T12:47:54.034+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T13:55:31.678+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-14T13:55:32.287+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-17T12:55:35.372+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-17T15:47:13.010+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-17T16:04:00.919+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-17T16:04:21.527+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-17T16:05:46.077+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-17T16:06:32.316+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-17T16:09:03.909+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-09-20T17:20:57.192+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:21:00.333+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:21:10.120+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:21:10.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:21:13.255+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:21:23.123+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:21:23.155+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:21:26.300+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:21:36.124+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:21:36.151+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:21:39.257+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:21:49.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:21:49.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:21:52.264+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:22:02.126+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:22:02.157+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:22:05.267+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:22:15.120+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:22:15.155+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:22:18.259+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:22:28.120+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:22:28.153+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:22:31.254+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:22:41.128+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:22:41.155+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:22:44.257+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:22:54.126+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:22:54.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:22:57.255+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:23:07.120+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:23:07.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:23:10.294+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:23:20.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:23:20.158+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:23:23.249+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:23:33.121+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:23:33.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:23:36.265+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:23:46.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:23:46.162+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:23:49.286+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:23:59.126+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:23:59.164+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:24:02.287+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:24:12.124+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:24:12.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:24:15.245+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:24:25.125+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:24:25.161+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:24:28.256+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:24:38.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:24:38.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:24:41.288+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:24:51.126+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:24:51.161+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:24:54.259+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:25:04.126+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:25:04.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:25:07.264+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:25:17.127+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:25:17.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:25:20.256+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:25:30.121+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:25:30.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:25:33.250+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:25:43.121+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:25:43.153+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:25:46.254+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:25:56.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:25:56.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:25:59.268+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:26:09.120+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:26:09.176+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:26:12.411+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:26:23.121+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:26:23.155+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:26:26.255+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:26:36.121+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:26:36.155+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:26:39.282+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:26:49.121+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:26:49.151+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:26:52.282+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:27:02.121+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:27:02.157+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:27:05.246+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:27:15.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:27:15.161+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:27:18.273+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:27:18.281+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:27:18.285+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:27:28.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:27:28.153+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:27:31.258+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:27:31.258+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:27:31.261+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:27:41.125+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:27:41.157+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:27:44.271+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:27:44.278+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:27:44.282+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:27:54.123+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:27:54.159+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:27:57.270+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:27:57.278+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:27:57.281+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:28:07.125+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:28:07.160+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:28:10.271+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:28:10.276+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:28:10.281+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:28:20.124+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:28:20.157+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:28:23.270+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:28:23.273+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:28:23.277+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:28:33.127+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:28:33.161+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:28:36.275+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:28:36.276+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:28:36.276+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:28:46.127+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:28:46.158+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:28:49.272+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:28:49.277+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:28:49.282+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:28:59.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:28:59.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:29:02.267+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:29:02.275+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:29:02.276+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:29:12.126+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:29:12.158+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:29:15.265+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:29:15.273+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:29:15.277+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:29:25.127+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:29:25.157+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:29:28.269+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:29:28.270+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:29:28.270+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:29:38.125+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:29:38.160+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:29:41.266+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:29:41.272+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:29:41.276+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:29:51.125+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:29:51.159+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:29:54.268+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:29:54.273+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:29:54.274+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:30:04.120+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:30:04.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:30:07.260+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:30:07.265+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:30:07.266+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:30:17.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:30:17.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:30:20.266+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:30:20.271+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:30:20.274+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:30:30.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:30:30.158+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:30:33.262+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:30:33.263+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:30:33.272+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:30:43.120+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:30:43.155+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:30:46.267+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:30:46.267+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:30:46.268+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:30:56.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:30:56.152+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:30:59.272+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:30:59.283+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:30:59.285+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:31:09.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:31:09.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:31:12.264+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:31:12.265+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:31:12.265+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:31:22.120+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:31:22.185+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:31:25.333+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:31:25.334+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:31:25.334+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:31:35.121+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:31:35.152+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:31:38.260+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:31:38.261+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:31:38.262+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:31:48.121+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:31:48.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:31:51.263+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:31:51.269+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:31:51.272+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:32:01.126+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:32:01.156+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:32:04.266+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:32:04.267+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:32:04.269+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:32:14.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:32:14.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:32:17.257+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:32:17.265+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:32:17.267+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:32:27.123+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:32:27.157+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:32:30.257+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:32:30.258+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:32:30.258+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:32:40.123+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:32:40.152+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:32:43.260+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:32:43.268+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:32:43.269+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:32:53.123+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:32:53.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:32:56.259+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:32:56.266+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:32:56.267+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:33:06.125+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:33:06.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:33:09.263+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:33:09.264+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:33:09.264+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:33:19.125+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:33:19.153+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:33:22.262+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:33:22.264+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:33:22.275+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:33:32.124+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:33:32.154+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:33:35.260+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:33:35.264+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:33:35.267+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:33:45.124+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:33:45.164+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:33:48.286+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:33:48.286+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:33:48.287+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:33:58.124+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:33:58.164+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:34:01.283+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:34:01.292+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:34:01.293+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:34:11.127+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:34:11.162+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:34:14.311+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:34:14.316+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:34:14.322+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:34:24.130+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:34:24.173+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:34:27.314+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:34:27.314+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:34:27.315+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:34:37.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:34:37.163+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:34:40.317+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:34:40.324+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:34:40.325+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:34:50.123+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:34:50.167+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:34:53.301+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:34:53.301+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:34:53.301+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:35:03.128+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:35:03.170+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:35:06.316+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:35:06.316+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:35:06.326+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:35:16.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:35:16.171+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:35:19.316+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:35:19.323+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:35:19.324+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:35:24.273+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/serverApp_1_0_mipsisa32r2el.eap' size:33970
+2018-09-20T17:35:26.646+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
+2018-09-20T17:35:27.013+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/serverApp_1_0_mipsisa32r2el.eap installation OK
+2018-09-20T17:35:29.130+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:35:29.170+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:35:32.320+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:35:32.320+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:35:32.321+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:35:42.126+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:35:42.169+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:35:45.310+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:35:45.311+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:35:45.312+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:35:55.123+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:35:55.162+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:35:58.308+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:35:58.321+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:35:58.321+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
+2018-09-20T17:36:08.122+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Action rule "Action4" is starting action "Send Video Clip"
+2018-09-20T17:36:08.165+02:00 axis-00408ce8dd13 [ INFO    ] monolith[22111]: Started saving stream for event "Action4".
+2018-09-20T17:36:11.307+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
+2018-09-20T17:36:11.314+02:00 axis-00408ce8dd13 [ NOTICE  ] actionengined[1080]: Aborting "Send Video Clip" action
+2018-09-20T17:36:11.322+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds

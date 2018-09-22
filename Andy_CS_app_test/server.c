@@ -6,6 +6,7 @@
 
 #include <fcntl.h>
 #include <unistd.h>
+#include <string.h>
 
 int main()
 {
@@ -23,7 +24,7 @@ int main()
 
     int clientSocket = accept(serverSocket, NULL, NULL);
 
-    send(clientSocket, serverMessage, sizeof(serverMessage), 0);
+    send(clientSocket, serverMessage, strlen(serverMessage), 0);
 
     close(serverSocket);
 

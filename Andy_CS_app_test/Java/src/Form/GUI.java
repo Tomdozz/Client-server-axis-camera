@@ -47,9 +47,9 @@ public class GUI {
                 int portNumber = Integer.parseInt(portText.getText());
 
                 try{
-                    Socket clientSocket = new Socket(hostName, portNumber);
-                    PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-                    BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+                    socket = new Socket(hostName, portNumber);
+                    out = new PrintWriter(socket.getOutputStream(), true);
+                    in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
                     if (in.readLine().equals("You have reached the server!")){
                         connectionStatusLabel.setForeground(new Color(58, 187, 35));
@@ -62,6 +62,19 @@ public class GUI {
                     e1.printStackTrace();
                 }
 
+            }
+        });
+
+        sendButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int width = Integer.parseInt(widthText.getText());
+                int height = Integer.parseInt(heightText.getText());
+                int frequency = Integer.parseInt(frequencyText.getText());
+                String msg = "w" + width + "h" + height + "f" + frequency + "\n";
+                System.out.print(msg);
+                out.println(msg);
+                out.flush();
             }
         });
 

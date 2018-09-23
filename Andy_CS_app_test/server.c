@@ -122,7 +122,8 @@ int main(int argc, char *argv[])
             }   
             if (foundSpace == false)
             {
-                //Possible TODO no space message?
+                char *message = "There's no space on the server for you!\n";
+                send(newSocket, message, strlen(message), 0);
                 close(newSocket);
             }
         }   
@@ -148,7 +149,6 @@ int main(int argc, char *argv[])
                     char* next = buffer;
                     while(*next != '\0' && *next != '\n')
                     {
-                        printf("Address: %p, value: %hhx \n", next, *next);
                         if (*next == 'w')
                             clients[i].width = strtol(next + 1, &next, 10);
                         else if (*next == 'h')
@@ -156,9 +156,8 @@ int main(int argc, char *argv[])
                         else if (*next == 'f')
                             clients[i].frequency = strtol(next + 1, &next, 10);
                     }
-
-                    printf("Width: %d, Height: %d, Frequency: %d \n", clients[i].width, clients[i].height, clients[i].frequency);
-
+                    
+                    printf("width: %d, height: %d, frequency: %d \n", clients[i].width, clients[i].height, clients[i].frequency);
                     //buffer[0] = '!';
                     buffer[charactersRead] = '\0';
                     send(clients[i].descriptor, buffer, strlen(buffer), 0);

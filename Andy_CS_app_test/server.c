@@ -100,7 +100,6 @@ int main(int argc, char *argv[])
             {   
                 perror("Error accepting new connection");
             }   
-             
             printf("New connection, socket descriptor is %d, ip is: %s, port: %d\n", newSocket, inet_ntoa(address.sin_addr), ntohs(address.sin_port));
            
             char *message = "You have reached the server!\n";
@@ -140,11 +139,27 @@ int main(int argc, char *argv[])
                     getpeername(clients[i].descriptor, (struct sockaddr*)&address, (socklen_t*)&addressSize);
                     printf("Disconnected, ip: %s, port: %d \n", inet_ntoa(address.sin_addr), ntohs(address.sin_port));
                     close(clients[i].descriptor);
-                    clients[i].descriptor = -1;
+                    resetClient(&clients[i]);
                 }
                 else
                 {
-                    buffer[0] = '!';
+                    buffer[charactersRead] = '\0';
+
+                    char* next = buffer;
+                    while(*next != '\0' && *next != '\n')
+                    {
+                        printf("Address: %p, value: %hhx \n", next, *next);
+                        if (*next == 'w')
+                            clients[i].width = strtol(next + 1, &next, 10);
+                        else if (*next == 'h')
+                            clients[i].height = strtol(next + 1, &next, 10);
+                        else if (*next == 'f')
+                            clients[i].frequency = strtol(next + 1, &next, 10);
+                    }
+
+                    printf("Width: %d, Height: %d, Frequency: %d \n", clients[i].width, clients[i].height, clients[i].frequency);
+
+                    //buffer[0] = '!';
                     buffer[charactersRead] = '\0';
                     send(clients[i].descriptor, buffer, strlen(buffer), 0);
                 }   

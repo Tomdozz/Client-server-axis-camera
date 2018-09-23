@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c2e3ba-7471-49a7-8cd8-e4dfe115450c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/GUI.form" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Form/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="398">
+              <caret line="84" column="2" lean-forward="true" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Form/GUI.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
@@ -169,9 +169,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1920" height="1080" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1248666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1248666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -180,7 +179,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32990867" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3587866" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3587866" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39853558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -205,8 +204,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Form/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="398">
+          <caret line="84" column="2" lean-forward="true" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

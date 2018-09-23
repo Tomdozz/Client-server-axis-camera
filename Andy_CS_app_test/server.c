@@ -10,45 +10,46 @@
 #include <sys/time.h>
 #include <stdbool.h>
      
-#define PORT 9009
-     
-int main(int argc, char *argv[])
-{   
-    int optval = true;
-    int masterSocket;
-    int addressSize;
-    int newSocket;
-    int maxClients = 30;
-    int clientSockets[maxClients];
-    int activity;
-    int charactersRead;
-    int socketDescriptor;
-    int highestSocketDescriptor;
-    struct sockaddr_in address;
+#define PORT 9009  
 
-    char buffer[1025];
-         
-    fd_set descriptors;
-         
-    char *message = "You have reached the server!\n";
-     
+typedef struct connectionInfo
+{
+    int descriptor;
+    int width;
+    int height;
+    int frequency;
+} connectionInfo;
+
+void resetClient(connectionInfo *client)
+{
+    *client = (connectionInfo) { -1, -1, -1, -1 };
+}
+
+int main(int argc, char *argv[])
+{        
+    int maxClients = 30;
+    connectionInfo clients[maxClients];
     for (int i = 0; i < maxClients; i++)   
     {   
-        clientSockets[i] = -1;   
+        resetClient(&clients[i]);
     }   
          
+    int masterSocket;
     if((masterSocket = socket(AF_INET, SOCK_STREAM, 0)) == 0)
     {   
         perror("Creation of master socket failed");   
         exit(EXIT_FAILURE);   
     }   
      
+
+    int optval = true;
     if(setsockopt(masterSocket, SOL_SOCKET, SO_REUSEADDR, (char*)&optval, sizeof(optval)) < 0)
     {   
         perror("Failed to set master socket to reduce wait time.");
         exit(EXIT_FAILURE);
     }   
      
+    struct sockaddr_in address;
     address.sin_family = AF_INET;
     address.sin_addr.s_addr = INADDR_ANY;
     address.sin_port = htons(PORT);
@@ -66,35 +67,35 @@ int main(int argc, char *argv[])
         exit(EXIT_FAILURE);
     }
 
-    addressSize = sizeof(address);
+    int addressSize = sizeof(address);
     puts("Waiting for connections...");
 
     while(true)
     {   
+        fd_set descriptors;
         FD_ZERO(&descriptors);
 
         FD_SET(masterSocket, &descriptors);
-        highestSocketDescriptor = masterSocket;
+        int highestSocketDescriptor = masterSocket;
 
         for (int i = 0 ; i < maxClients ; i++)
         {   
-            socketDescriptor = clientSockets[i];
-
-            if(socketDescriptor > -1)
-                FD_SET(socketDescriptor, &descriptors);
+            if(clients[i].descriptor > -1)
+                FD_SET(clients[i].descriptor, &descriptors);
                  
-            if(socketDescriptor > highestSocketDescriptor)
-                 highestSocketDescriptor = socketDescriptor;
+            if(clients[i].descriptor > highestSocketDescriptor)
+                 highestSocketDescriptor = clients[i].descriptor;
         }
      
-        activity = select(highestSocketDescriptor + 1, &descriptors, NULL, NULL, NULL);
+        int activity = select(highestSocketDescriptor + 1, &descriptors, NULL, NULL, NULL);
         if ((activity < 0) && (errno!=EINTR))
         {   
             printf("Error selecting activity");
         }
              
         if (FD_ISSET(masterSocket, &descriptors))
-        {   
+        {     
+            int newSocket;
             if ((newSocket = accept(masterSocket, (struct sockaddr*)&address, (socklen_t*)&addressSize)) < 0)
             {   
                 perror("Error accepting new connection");
@@ -102,6 +103,7 @@ int main(int argc, char *argv[])
              
             printf("New connection, socket descriptor is %d, ip is: %s, port: %d\n", newSocket, inet_ntoa(address.sin_addr), ntohs(address.sin_port));
            
+            char *message = "You have reached the server!\n";
             if(send(newSocket, message, strlen(message), 0) != strlen(message))
             {
                 perror("Error in sending whole message");
@@ -110,40 +112,41 @@ int main(int argc, char *argv[])
             bool foundSpace = false;
             for (int i = 0; i < maxClients; i++)
             {
-                if(clientSockets[i] == -1)
+                if(clients[i].descriptor == -1)
                 {
-                    clientSockets[i] = newSocket;
+                    clients[i].descriptor = newSocket;
                     printf("Adding to list of sockets as %d\n" , i);
                     foundSpace = true;
                     break;
                 }
-                //TODO expand number of clients possible.
+                //Possible TODO expand number of clients possible.
             }   
             if (foundSpace == false)
             {
-                //TODO no space message?
+                //Possible TODO no space message?
                 close(newSocket);
             }
         }   
 
         for (int i = 0; i < maxClients; i++)
         {   
-            socketDescriptor = clientSockets[i];
-
-            if (FD_ISSET(socketDescriptor, &descriptors))
-            {   
-                if ((charactersRead = read(socketDescriptor, buffer, 1024)) <= 0)
+            if (FD_ISSET(clients[i].descriptor, &descriptors))
+            {       
+                int charactersRead;
+                char buffer[1025];
+                if ((charactersRead = read(clients[i].descriptor, buffer, 1024)) <= 0)
                 {   
-                    //Socket disconnected, closed descriptor with nothing to read.
-                    getpeername(socketDescriptor, (struct sockaddr*)&address, (socklen_t*)&addressSize);
+                    //Socket disconnected, closed descriptor with nothing to read, or failed.
+                    getpeername(clients[i].descriptor, (struct sockaddr*)&address, (socklen_t*)&addressSize);
                     printf("Disconnected, ip: %s, port: %d \n", inet_ntoa(address.sin_addr), ntohs(address.sin_port));
-                    close(socketDescriptor);
-                    clientSockets[i] = -1;
+                    close(clients[i].descriptor);
+                    clients[i].descriptor = -1;
                 }
                 else
                 {
+                    buffer[0] = '!';
                     buffer[charactersRead] = '\0';
-                    send(socketDescriptor, buffer, strlen(buffer), 0);
+                    send(clients[i].descriptor, buffer, strlen(buffer), 0);
                 }   
             }   
         }   

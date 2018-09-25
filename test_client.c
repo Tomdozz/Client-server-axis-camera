@@ -23,7 +23,7 @@ int main(){
 	if(connection_status == -1){
 		printf("There was an error making the connection");
 	}
-	char *hello_message = "helo frosdaasdasdaasm clien";
+	char *hello_message = "elo rosdaasdasdaasm clien";
 	send(network_socket, hello_message, strlen(hello_message),0);
 	char server_response[256];
 	//recive data

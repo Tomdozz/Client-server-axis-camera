@@ -2,7 +2,7 @@ AXIS_USABLE_LIBS = UCLIBC GLIBC
 include $(AXIS_TOP_DIR)/tools/build/rules/common.mak
 
 
-PROG1	= cam_server_prog
+PROG1	= cam_server
 OBJS1	= server.c
 
 PROGS	= $(PROG1)

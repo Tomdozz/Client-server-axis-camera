@@ -40,7 +40,7 @@ public class GUI {
 
     public GUI() {
         connectButton.addActionListener(new ActionListener() {
-            @Override
+
             public void actionPerformed(ActionEvent e) {
 
                 String hostName = ipText.getText();
@@ -66,7 +66,7 @@ public class GUI {
         });
 
         sendButton.addActionListener(new ActionListener() {
-            @Override
+
             public void actionPerformed(ActionEvent e) {
                 int width = Integer.parseInt(widthText.getText());
                 int height = Integer.parseInt(heightText.getText());
@@ -81,7 +81,7 @@ public class GUI {
 
         BufferedImage img = null;
         try {
-            img = ImageIO.read(new File("/home/andy/code/Client-server-axis-camera/Andy_CS_app_test/mallard.jpg"));
+            img = ImageIO.read(new File("C:/Users/tom_1/Desktop/cassignment/Client-server-axis-camera/Andy_CS_app_test/mallard.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }

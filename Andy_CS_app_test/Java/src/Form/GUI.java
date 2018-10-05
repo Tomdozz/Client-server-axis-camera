@@ -81,7 +81,8 @@ public class GUI {
 
         BufferedImage img = null;
         try {
-            img = ImageIO.read(new File("C:/Users/tom_1/Desktop/cassignment/Client-server-axis-camera/Andy_CS_app_test/mallard.jpg"));
+            img = ImageIO.read(new File("../mallard.jpg"));
+            //System.out.print((new File("mallard.jpg").getAbsolutePath()));
         } catch (IOException e) {
             e.printStackTrace();
         }

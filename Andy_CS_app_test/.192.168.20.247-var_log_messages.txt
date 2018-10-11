@@ -7,220 +7,265 @@
 2018-09-30T15:25:48.267+02:00 axis-00408ce8dd13 [ WARNING ] systemd[1]: upnp.service: State 'stop-sigterm' timed out. Killing.
 2018-09-30T15:25:48.364+02:00 axis-00408ce8dd13 [ WARNING ] systemd[1]: upnp.service: Failed with result 'signal'.
 2018-10-04T12:33:26.065+02:00 axis-00408ce8dd13 [ WARNING ] cam_server_prog: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-04T12:33:26.149+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-04T12:42:27.517+02:00 axis-00408ce8dd13 [ WARNING ] cam_server_prog: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-04T12:42:27.599+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-04T12:50:14.174+02:00 axis-00408ce8dd13 [ WARNING ] cam_server_prog: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-04T12:50:14.259+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-04T17:50:16.561+02:00 axis-00408ce8dd13 [ WARNING ] monolith[300]: (fdsrc0:src) /home/svcj/workspace/FP-PM-Echo-FWRT_5_90_1-PRODUCTS-FWRT_Q1604_FW-2/fwrt/products-camera-q1604-rel-5.90.1-maint/unpacked/libs/gstreamer-IR1.4.5-1/gstreamer/gst/gstpad.c:4655:store_sticky_event:<auparse0:src> Sticky event misordering, got 'segment' before 'caps'
 2018-10-04T17:50:16.562+02:00 axis-00408ce8dd13 [ WARNING ] monolith[300]: (fdsrc0:src) /home/svcj/workspace/FP-PM-Echo-FWRT_5_90_1-PRODUCTS-FWRT_Q1604_FW-2/fwrt/products-camera-q1604-rel-5.90.1-maint/unpacked/libs/gstreamer-IR1.4.5-1/gstreamer/gst/gstpad.c:4655:store_sticky_event:<mulawdec0:sink> Sticky event misordering, got 'segment' before 'caps'
-2018-10-09T15:21:03.928+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-10-09T15:22:25.830+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-10-09T15:35:05.989+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-10-09T15:36:22.380+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-10-09T15:37:41.374+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-10-10T15:05:12.612+02:00 axis-00408ce8dd13 [ INFO    ] main[0]: starting main
-2018-10-10T15:05:15.428+02:00 axis-00408ce8dd13 [ INFO    ] main: using capture
-2018-10-10T15:07:01.834+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkmain start
-2018-10-10T15:07:02.134+02:00 axis-00408ce8dd13 [ INFO    ] main[0]: starting main
-2018-10-10T15:07:06.702+02:00 axis-00408ce8dd13 [ INFO    ] main: using capture
-2018-10-10T15:18:19.141+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkmain start
-2018-10-10T15:18:19.439+02:00 axis-00408ce8dd13 [ INFO    ] main[0]: starting main
-2018-10-10T15:18:23.150+02:00 axis-00408ce8dd13 [ INFO    ] main: using capture
-2018-10-10T15:26:18.439+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: Sending renew...
-2018-10-10T15:26:20.499+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-10-10T15:26:20.842+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: default IPv4 gateway: '192.168.20.1'.
-2018-10-11T03:26:21.089+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: Sending renew...
-2018-10-11T03:26:23.140+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-10-11T03:26:23.483+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: default IPv4 gateway: '192.168.20.1'.
-2018-10-11T10:06:14.220+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
-2018-10-11T10:06:14.524+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
-2018-10-11T10:06:14.826+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
-2018-10-11T10:06:14.838+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
-2018-10-11T10:06:14.843+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
 2018-10-11T10:06:41.690+02:00 axis-00408ce8dd13 [ WARNING ] cam_server_prog: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T10:06:41.779+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-10-11T10:42:31.914+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
-2018-10-11T10:42:32.225+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
-2018-10-11T10:42:32.459+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
-2018-10-11T10:42:32.459+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
-2018-10-11T10:42:32.460+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
-2018-10-11T10:45:05.625+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
-2018-10-11T10:45:05.936+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
-2018-10-11T10:45:06.238+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
-2018-10-11T10:45:06.238+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
-2018-10-11T10:45:06.239+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
-2018-10-11T10:47:14.182+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
-2018-10-11T10:47:14.489+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
-2018-10-11T10:47:14.812+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
-2018-10-11T10:47:14.812+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
-2018-10-11T10:47:14.813+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
-2018-10-11T10:48:26.578+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
-2018-10-11T10:48:26.893+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
-2018-10-11T10:48:27.179+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
-2018-10-11T10:48:27.180+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
-2018-10-11T10:48:27.180+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
-2018-10-11T10:51:27.220+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35588
-2018-10-11T10:51:28.359+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T10:51:30.126+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T10:51:30.128+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-11T10:51:52.203+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T10:51:52.553+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T10:52:05.422+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35588
-2018-10-11T10:52:06.547+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T10:52:08.227+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T10:52:08.228+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-11T10:55:44.034+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35751
-2018-10-11T10:55:45.557+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T10:55:45.745+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T10:55:53.601+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T10:55:53.905+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T10:55:54.076+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T10:55:54.080+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
-2018-10-11T10:56:11.609+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T10:56:11.922+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T10:56:12.119+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T10:56:12.123+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
-2018-10-11T10:56:30.411+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T10:56:30.729+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T10:56:30.907+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T10:56:30.908+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
-2018-10-11T10:56:45.058+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: Application 'cam_server' is not running
-2018-10-11T11:04:26.327+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35511
-2018-10-11T11:04:27.477+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:04:27.850+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:04:29.165+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:04:29.223+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:04:39.410+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:04:39.733+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:04:39.894+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:05:01.865+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-11T11:05:01.912+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-11T11:05:07.516+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:05:07.832+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:05:07.992+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:31:02.800+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35530
-2018-10-11T11:31:03.144+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-11T11:31:03.189+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-11T11:31:04.207+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:31:05.959+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:31:05.961+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-11T11:31:14.487+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:31:14.808+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:31:14.973+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:31:14.974+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
-2018-10-11T11:34:07.339+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-11T11:34:07.385+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-11T11:34:13.772+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35595
-2018-10-11T11:34:14.912+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:34:16.673+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:34:16.675+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-11T11:34:21.516+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:34:21.823+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:34:21.992+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:34:21.993+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
-2018-10-11T11:36:00.674+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:36:00.987+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:36:01.170+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
-2018-10-11T11:36:01.170+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:36:15.151+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35761
-2018-10-11T11:36:16.287+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:36:18.059+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:36:18.061+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-11T11:36:29.896+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:36:30.209+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:36:30.378+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:36:30.379+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
-2018-10-11T11:36:52.287+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:36:52.653+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:37:16.673+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35760
-2018-10-11T11:37:18.156+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:37:18.382+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:37:23.894+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:37:24.205+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:37:24.371+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
-2018-10-11T11:37:24.371+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:39:12.737+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:39:13.062+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:39:22.800+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35761
-2018-10-11T11:39:24.499+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:39:24.540+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:39:51.354+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:39:51.673+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:39:51.846+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:39:51.847+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
-2018-10-11T11:41:05.684+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: Application 'cam_server' is not running
-2018-10-11T11:41:18.251+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35588
-2018-10-11T11:41:19.392+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:41:21.137+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:41:21.139+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-11T11:41:26.429+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:41:26.744+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:41:26.905+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:41:26.909+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
-2018-10-11T11:44:32.429+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35785
-2018-10-11T11:44:33.562+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:44:35.366+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:44:35.367+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-11T11:44:40.572+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:44:40.887+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:44:41.064+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:44:41.068+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
-2018-10-11T11:45:24.075+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
-2018-10-11T11:47:50.123+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35635
-2018-10-11T11:47:50.463+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-11T11:47:50.514+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-11T11:47:51.562+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:47:53.326+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:47:53.328+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-11T11:47:57.267+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:47:57.591+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:47:57.752+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
-2018-10-11T11:47:57.752+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:49:04.317+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:49:04.684+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:49:20.620+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35642
-2018-10-11T11:49:22.159+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:49:22.344+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:49:29.056+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:49:29.371+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:49:29.539+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:49:29.539+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
-2018-10-11T11:50:16.682+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is, ip is, port:
-2018-10-11T11:50:16.683+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
-2018-10-11T11:51:59.681+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected!
-2018-10-11T11:52:08.870+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is, ip is, port:
-2018-10-11T11:52:08.872+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
-2018-10-11T11:53:01.606+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected!
-2018-10-11T11:53:13.105+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is, ip is, port:
-2018-10-11T11:53:13.106+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
-2018-10-11T11:53:39.404+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width, Height, Freq
-2018-10-11T11:53:50.708+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected!
-2018-10-11T11:55:12.616+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-11T11:55:12.672+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-11T11:55:13.668+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:55:14.049+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:55:23.314+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35653
-2018-10-11T11:55:24.834+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:55:25.025+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T11:55:29.462+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T11:55:29.777+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T11:55:29.940+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T11:55:29.942+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
-2018-10-11T11:55:47.245+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is, ip is, port:
-2018-10-11T11:55:47.247+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
-2018-10-11T11:55:49.892+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-11T11:59:17.162+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-11T11:59:17.208+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-11T11:59:24.473+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T11:59:24.817+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T12:00:07.820+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35678
-2018-10-11T12:00:09.350+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-11T12:00:09.546+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
-2018-10-11T12:00:18.223+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-11T12:00:18.542+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-11T12:00:18.704+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-11T12:00:18.704+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
-2018-10-11T12:00:27.778+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 46371
-2018-10-11T12:00:27.779+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-11T12:00:50.409+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 46371
+2018-10-11T13:17:43.866+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:19:46.216+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:21:11.171+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:24:17.361+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:26:37.057+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:29:03.942+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:35:19.661+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:39:48.737+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:41:48.225+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:43:25.042+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:49:58.922+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:51:09.876+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T13:54:45.043+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:03:28.297+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:05:36.051+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:11:05.810+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:14:48.933+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:17:54.883+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:17:54.969+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:23:17.874+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:23:17.959+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:26:42.764+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:26:42.849+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:28:08.051+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:28:08.138+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:29:42.588+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:29:42.679+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:31:39.348+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:31:39.439+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:33:26.676+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:33:26.759+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:35:53.000+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:40:41.957+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:40:42.042+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:42:12.373+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:42:12.379+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:48:31.941+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:48:31.949+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:54:34.574+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:54:34.658+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T14:55:54.140+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T14:55:54.236+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:00:24.317+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T15:00:24.408+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:08:12.423+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T15:08:12.519+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:12:09.346+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:13:05.398+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:16:01.430+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T15:16:01.433+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:25:31.268+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:27:52.572+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:29:19.721+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:31:08.679+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:33:47.989+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:35:34.645+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:39:27.059+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:41:46.659+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:45:25.437+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:48:21.202+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T15:50:36.339+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T16:15:15.767+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T16:21:16.789+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T16:22:34.419+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T17:12:19.689+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 35, ip is: 192.168.20.116, port: 41634
+2018-10-11T17:12:19.689+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: There's no space on the server for you!
+2018-10-11T17:14:04.960+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T17:14:05.004+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T17:14:30.179+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:36524
+2018-10-11T17:14:31.242+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T17:14:32.910+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T17:14:32.912+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T17:14:39.125+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T17:14:39.416+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T17:14:39.573+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T17:14:39.578+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
+2018-10-11T17:15:15.699+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T17:15:16.109+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T17:15:25.444+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:36524
+2018-10-11T17:15:26.891+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T17:15:27.051+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T17:15:30.671+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T17:15:30.967+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T17:15:31.124+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
+2018-10-11T17:15:31.124+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T17:16:02.043+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T17:16:02.333+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T17:16:02.529+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T17:16:02.533+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
+2018-10-11T17:16:10.654+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41674
+2018-10-11T17:16:10.655+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:18:26.689+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:18:26.689+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:18:27.752+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 47308
+2018-10-11T17:18:27.757+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 47308
+2018-10-11T17:21:31.299+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:21:31.300+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:21:32.742+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 47806
+2018-10-11T17:21:32.745+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 47806
+2018-10-11T17:21:32.752+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:21:32.757+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:21:34.742+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 47989
+2018-10-11T17:21:34.743+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 47989
+2018-10-11T17:21:37.070+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:21:37.070+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:21:38.741+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 48005
+2018-10-11T17:21:38.745+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 48005
+2018-10-11T17:21:38.998+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:21:39.002+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:21:40.741+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 47881
+2018-10-11T17:21:40.745+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 47881
+2018-10-11T17:22:33.622+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
+2018-10-11T17:22:33.622+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41674
+2018-10-11T17:22:37.102+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41704
+2018-10-11T17:22:37.104+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:22:38.599+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:22:38.599+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:22:39.738+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 48096
+2018-10-11T17:22:39.742+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 48096
+2018-10-11T17:24:06.922+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:24:06.925+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41704
+2018-10-11T17:25:13.640+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41739
+2018-10-11T17:25:13.645+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:25:13.646+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:25:13.647+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41739
+2018-10-11T17:27:31.007+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41746
+2018-10-11T17:27:31.008+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:27:31.013+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:27:31.014+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41746
+2018-10-11T17:27:58.967+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41752
+2018-10-11T17:27:58.971+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:27:59.841+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:27:59.841+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:28:01.721+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 49880
+2018-10-11T17:28:01.725+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 49880
+2018-10-11T17:28:04.492+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:28:04.492+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41752
+2018-10-11T17:29:50.104+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41756
+2018-10-11T17:29:50.106+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:29:50.113+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:29:50.114+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41756
+2018-10-11T17:30:15.129+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41757
+2018-10-11T17:30:15.130+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:30:16.400+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:30:16.400+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:30:17.719+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 48913
+2018-10-11T17:30:17.720+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 48913
+2018-10-11T17:30:52.845+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:30:52.845+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41757
+2018-10-11T17:32:04.253+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:32:04.253+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41759
+2018-10-11T17:32:10.479+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:32:10.480+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:32:11.710+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 47824
+2018-10-11T17:32:11.710+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 47824
+2018-10-11T17:33:09.243+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:33:09.244+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41759
+2018-10-11T17:35:47.400+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41766
+2018-10-11T17:35:47.402+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:35:47.408+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:35:47.412+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:35:48.697+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 42770
+2018-10-11T17:35:48.701+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 42770
+2018-10-11T17:36:10.676+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
+2018-10-11T17:36:10.676+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41766
+2018-10-11T17:36:42.148+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41776
+2018-10-11T17:36:42.149+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:36:42.160+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:36:42.161+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:36:43.695+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 45372
+2018-10-11T17:36:43.696+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 45372
+2018-10-11T17:36:53.924+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:36:53.925+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41776
+2018-10-11T17:38:50.306+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41777
+2018-10-11T17:38:50.307+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:38:50.315+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:38:50.316+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:38:51.687+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43249
+2018-10-11T17:38:51.690+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43249
+2018-10-11T17:38:57.172+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:38:57.173+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41777
+2018-10-11T17:39:00.564+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41778
+2018-10-11T17:39:00.565+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:39:00.572+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:39:00.573+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:39:01.687+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43169
+2018-10-11T17:39:01.688+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43169
+2018-10-11T17:39:06.686+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:39:06.688+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41778
+2018-10-11T17:39:14.722+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:39:14.722+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41779
+2018-10-11T17:39:14.729+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:39:14.731+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:39:16.688+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 44036
+2018-10-11T17:39:16.689+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 44036
+2018-10-11T17:39:17.481+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
+2018-10-11T17:39:17.482+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41779
+2018-10-11T17:40:50.945+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:36532
+2018-10-11T17:40:51.267+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T17:40:51.310+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T17:40:52.402+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T17:40:54.061+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T17:40:54.063+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T17:40:57.916+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T17:40:58.208+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T17:40:58.362+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T17:40:58.365+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
+2018-10-11T17:41:04.755+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41799
+2018-10-11T17:41:04.756+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:41:04.768+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:41:04.769+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:41:05.847+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43453
+2018-10-11T17:41:05.851+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43453
+2018-10-11T17:41:21.268+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:41:21.269+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41799
+2018-10-11T17:42:24.022+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:36515
+2018-10-11T17:42:24.344+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T17:42:24.387+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T17:42:25.370+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T17:42:26.980+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T17:42:26.982+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T17:42:30.340+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T17:42:30.635+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T17:42:30.791+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T17:42:30.793+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
+2018-10-11T17:42:37.253+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41806
+2018-10-11T17:42:37.254+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:42:37.261+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:42:37.261+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:42:38.378+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43902
+2018-10-11T17:42:38.379+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43902
+2018-10-11T17:42:59.696+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:42:59.696+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41806
+2018-10-11T17:44:42.162+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:36527
+2018-10-11T17:44:42.485+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T17:44:42.539+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T17:44:43.521+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T17:44:45.182+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T17:44:45.184+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T17:44:48.407+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T17:44:48.703+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T17:44:48.854+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T17:44:48.857+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
+2018-10-11T17:44:53.249+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.116, port: 41815
+2018-10-11T17:44:53.253+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
+2018-10-11T17:44:53.257+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
+2018-10-11T17:44:53.258+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T17:44:54.340+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 44497
+2018-10-11T17:44:54.340+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 44497
+2018-10-11T17:45:16.291+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
+2018-10-11T17:45:16.291+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.116, port: 41815
+2018-10-11T17:46:12.956+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:36537
+2018-10-11T17:46:13.271+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T17:46:13.317+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T17:46:14.317+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T17:46:15.943+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T17:46:15.944+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]

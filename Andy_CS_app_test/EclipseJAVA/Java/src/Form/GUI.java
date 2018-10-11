@@ -36,6 +36,9 @@ public class GUI {
     private Socket socket;
     private PrintWriter out;
     private BufferedReader in;
+    
+    String hostName;
+    int portNumber;
 
 
     public GUI() {
@@ -43,18 +46,30 @@ public class GUI {
 
             public void actionPerformed(ActionEvent e) {
 
-                String hostName = ipText.getText();
-                int portNumber = Integer.parseInt(portText.getText());
+                hostName = ipText.getText();
+                portNumber = Integer.parseInt(portText.getText());
 
                 try {
                     socket = new Socket(hostName, portNumber);
                     out = new PrintWriter(socket.getOutputStream(), true);
                     in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                     
-                    if (in.readLine().equals("You have reached the server!")) {
+                    String welcome = in.readLine();
+                    System.out.print(welcome);
+                    if (welcome.equals("You have reached the server!")) {
                         connectionStatusLabel.setForeground(new Color(58, 187, 35));
                         connectionStatusLabel.setText("Connected!");
                     }
+                    
+                    int width = Integer.parseInt(widthText.getText());
+                    int height = Integer.parseInt(heightText.getText());
+                    int frequency = Integer.parseInt(frequencyText.getText());
+                    String msg = "w" + width + "h" + height + "f" + frequency + "\n";
+                    System.out.print(msg);
+                    out.println(msg);
+                    out.flush();
+                    
+                    System.out.print(in.readLine());
 
                 } catch (UnknownHostException e1) {
                     e1.printStackTrace();
@@ -65,18 +80,28 @@ public class GUI {
             }
         });
 
-        sendButton.addActionListener(new ActionListener() {
+        /*  sendButton.addActionListener(new ActionListener() {
 
-            public void actionPerformed(ActionEvent e) {
-                int width = Integer.parseInt(widthText.getText());
+           public void actionPerformed(ActionEvent e) {            	
+              int width = Integer.parseInt(widthText.getText());
                 int height = Integer.parseInt(heightText.getText());
                 int frequency = Integer.parseInt(frequencyText.getText());
                 String msg = "w" + width + "h" + height + "f" + frequency + "\n";
                 System.out.print(msg);
                 out.println(msg);
                 out.flush();
+                
+                String data;
+				try {
+					data = in.readLine();
+	                System.out.print(data);
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
             }
-        });
+            
+        }); */
 
 
         BufferedImage img = null;
@@ -174,7 +199,7 @@ public class GUI {
         ipText.setText("192.168.20.247");
         connectionPanel.add(ipText, new com.intellij.uiDesigner.core.GridConstraints(2, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1), null, 0, false));
         portText = new JTextField();
-        portText.setText("9002");
+        portText.setText("9009");
         connectionPanel.add(portText, new com.intellij.uiDesigner.core.GridConstraints(4, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1), null, 0, false));
         connectButton = new JButton();
         connectButton.setText("Connect to server");

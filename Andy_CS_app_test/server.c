@@ -12,7 +12,7 @@
 #include <stdbool.h>
 #include <capture.h>
 
-#define PORT 9002 
+#define PORT 9009 
 size_t i; 
 
 typedef struct connectionInfo
@@ -161,7 +161,9 @@ int main(int argc, char *argv[])
             {       
                 int charactersRead;
                 char buffer[1025];
-                if ((charactersRead = read(clients[i].descriptor, buffer, 1024)) <= 0)
+		charactersRead = read(clients[i].descriptor, buffer, 1024);
+		syslog(LOG_INFO, "Characters read: %d", charactersRead);
+                if (charactersRead <= 0)
                 {   
                     //Socket disconnected, closed descriptor with nothing to read, or failed.
                     getpeername(clients[i].descriptor, (struct sockaddr*)&address, (socklen_t*)&addressSize);
@@ -189,7 +191,47 @@ int main(int argc, char *argv[])
                     syslog(LOG_INFO, "Width: %d, Height: %d, Freq: %d ", clients[i].width, clients[i].height, clients[i].frequency);
                     //buffer[0] = '!';
                     buffer[charactersRead] = '\0';
-                    send(clients[i].descriptor, buffer, strlen(buffer), 0);
+
+
+		    
+		    //cli_img_desc = "fps=25&sdk_format=Y800&resolution=350x288&rotation=180"; 
+		    //stream = capture_open_stream(IMAGE_JPEG, cli_img_desc);
+
+ 			stream = capture_open_stream(IMAGE_JPEG, "resolution176x144&fps=1");
+  			if (stream == NULL) 
+			{
+    			   syslog(LOG_INFO, "Failed to open stream\n");
+			}
+
+			frame = capture_get_frame(stream);
+			syslog(LOG_INFO, "Getting %d frames. resolution: %dx%d framesize: %d\n",
+          		100,
+          		capture_frame_width(frame),
+         		capture_frame_height(frame),
+         		capture_frame_size(frame));
+
+			data = capture_frame_data(frame);
+			img_size = capture_frame_size(frame);
+			syslog(LOG_INFO, "img_size is %d", img_size);
+			unsigned char row_data[img_size];
+                        int r;
+
+			for(r = 0; r<img_size; r++)
+			{
+		           row_data[r] = ((unsigned char *)data)[r];
+			}
+
+			int err = write(clients[i].descriptor, row_data, strlen(row_data));
+			if(err < 0){
+				syslog(LOG_INFO,"erreor sendin");
+				memset(data,0 , sizeof(data));
+			}
+
+			row_data[img_size] = '\n';
+			//write(clients[i].descriptor, row_data, strlen(row_data));	
+                        send(clients[i].descriptor, row_data, strlen(row_data), 0);
+
+                        //send(clients[i].descriptor, "he\n", 5, 0);
 
 			
                 }   

@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.io.File;
+import java.nio.ByteBuffer;
 import java.nio.file.Files;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -37,7 +38,7 @@ public class GUI {
 
     private Socket socket;
     private PrintWriter out;
-    private BufferedReader in;
+    private InputStream in;
     
     String hostName;
     int portNumber;
@@ -54,11 +55,9 @@ public class GUI {
                 try {
                     socket = new Socket(hostName, portNumber);
                     out = new PrintWriter(socket.getOutputStream(), true);
-                    in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                    in = socket.getInputStream();
                     
-                    String welcome = in.readLine();
-                    System.out.print(welcome);
-                    if (welcome.equals("You have reached the server!")) {
+                    if (in.read() == 1) {
                         connectionStatusLabel.setForeground(new Color(58, 187, 35));
                         connectionStatusLabel.setText("Connected!");
                     }
@@ -71,11 +70,25 @@ public class GUI {
                     out.println(msg);
                     out.flush();
                     
-                    //System.out.print(in.readLine());
-                    System.out.print(in.read());
-                    System.out.print(in.read());
-                    System.out.print(in.read());
-                    System.out.print(in.read());
+                    //TODO while true som uppdaterar bilden, GUIn kommer frysa men bilden blir bra? Alt. repaint kan behövas
+                    //Om det inte går med repaint så bryt ut det till en annan tråd.
+                    
+                    byte buffer[] = new byte[4];
+                    in.read(buffer);
+                    
+                    ByteBuffer wrapped = ByteBuffer.wrap(buffer);
+                    int imgSize = wrapped.getInt();
+                    
+                    buffer = new byte[imgSize];
+                    
+                    for(int i = 0; i < imgSize;)
+                    {
+                    	i += in.read(buffer, i, imgSize-i);
+                    }
+                                        
+                    BufferedImage img = ImageIO.read(new ByteArrayInputStream(buffer));
+                    imageLabel.setIcon(new ImageIcon(img));
+                    
 
                 } catch (UnknownHostException e1) {
                     e1.printStackTrace();

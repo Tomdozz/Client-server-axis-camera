@@ -21,20 +21,29 @@ typedef struct connectionInfo
     int width;
     int height;
     int frequency;
+
+    media_frame *frame;
+    void *data;
+    media_stream *stream;
+    size_t img_size;
+    char *client_img_desc;
+
+    size_t img_sent;
+
 } connectionInfo;
 
 void resetClient(connectionInfo *client)
 {
-    *client = (connectionInfo) { -1, -1, -1, -1 };
+    *client = (connectionInfo) { -1, -1, -1, -1, NULL, NULL, NULL, 0, NULL, 0 };
 }
 
 char *IP_ADRESS = "192.168.20.247";
 //---imagecapture props---
-media_frame *frame;
-void *data;
-media_stream *stream;
-size_t img_size;
-char *cli_img_desc;
+//media_frame *frame;
+//void *data;
+//media_stream *stream;
+//size_t img_size;
+//char *cli_img_desc;
 //------------------------
 
 int main(int argc, char *argv[])
@@ -56,14 +65,13 @@ int main(int argc, char *argv[])
         exit(EXIT_FAILURE);   
     }   
      
-
-  //  int optval = true;
-  //  if(setsockopt(masterSocket, SOL_SOCKET, SO_REUSEADDR, (char*)&optval, sizeof(optval)) < 0)
- //   {   
-//	syslog(LOG_INFO, "Failed to set master socket to reduce wait time.");
-   //     perror("Failed to set master socket to reduce wait time.");
-   //     exit(EXIT_FAILURE);
-   // }   
+//  int optval = true;
+//  if(setsockopt(masterSocket, SOL_SOCKET, SO_REUSEADDR, (char*)&optval, sizeof(optval)) < 0)
+//  {   
+//     syslog(LOG_INFO, "Failed to set master socket to reduce wait time.");
+//     perror("Failed to set master socket to reduce wait time.");
+//     exit(EXIT_FAILURE);
+//  }   
      
     struct sockaddr_in address;
     address.sin_family = AF_INET;
@@ -72,7 +80,7 @@ int main(int argc, char *argv[])
          
     if (bind(masterSocket, (struct sockaddr*)&address, sizeof(address)) < 0)   
     {   
-	syslog(LOG_INFO,"Failed to bind socket.");
+	    syslog(LOG_INFO,"Failed to bind socket.");
         perror("Failed to bind socket");   
         exit(EXIT_FAILURE);   
     }   
@@ -80,7 +88,7 @@ int main(int argc, char *argv[])
          
     if (listen(masterSocket, 3) < 0)
     {
-	syslog(LOG_INFO,"listening failed");
+        syslog(LOG_INFO,"listening failed");
         perror("listening failed");
         exit(EXIT_FAILURE);
     }
@@ -91,33 +99,41 @@ int main(int argc, char *argv[])
 
     while(true)
     {   
-        fd_set descriptors;
-        FD_ZERO(&descriptors);
+        fd_set readDescriptors;
+        FD_ZERO(&readDescriptors);
 
-        FD_SET(masterSocket, &descriptors);
+        fd_set writeDescriptors;
+        FD_ZERO(&writeDescriptors);
+
+        FD_SET(masterSocket, &readDescriptors);
         int highestSocketDescriptor = masterSocket;
 	
-
         for (i = 0 ; i < maxClients ; i++)
         {   
             if(clients[i].descriptor > -1)
-                FD_SET(clients[i].descriptor, &descriptors);
+            {
+                FD_SET(clients[i].descriptor, &readDescriptors);
+                FD_SET(clients[i].descriptor, &writeDescriptors);
+            }
                  
             if(clients[i].descriptor > highestSocketDescriptor)
+            {
                  highestSocketDescriptor = clients[i].descriptor;
+            }
         }
      
-        int activity = select(highestSocketDescriptor + 1, &descriptors, NULL, NULL, NULL);
+        //Read activity. (Param 2) //Write activity (Param 3)
+        int activity = select(highestSocketDescriptor + 1, &readDescriptors, &writeDescriptors, NULL, NULL);
         if ((activity < 0) /*&& (errno!=EINTR)*/)
         {   
             printf("Error selecting activity");
             syslog(LOG_INFO, "Error selecting activity");
         }
              
-        if (FD_ISSET(masterSocket, &descriptors))
+        if (FD_ISSET(masterSocket, &readDescriptors))
         {     
             int newSocket;
-            if ((newSocket = accept(masterSocket, (struct sockaddr*)&address, (socklen_t*)&addressSize)) < 0)
+            if ((newSocket = accept4(masterSocket, (struct sockaddr*)&address, (socklen_t*)&addressSize), SOCK_NONBLOCK) < 0)
             {   
                 perror("Error accepting new connection");
                 syslog(LOG_INFO, "Error accepting new connection");
@@ -125,8 +141,9 @@ int main(int argc, char *argv[])
             printf("New connection, socket descriptor is %d, ip is: %s, port: %d\n", newSocket, inet_ntoa(address.sin_addr), ntohs(address.sin_port));
             syslog(LOG_INFO, "New connection, socket descriptor is %d, ip is: %s, port: %d\n", newSocket, inet_ntoa(address.sin_addr), ntohs(address.sin_port));
            
-            char *message = "You have reached the server!\n";
-            if(send(newSocket, message, strlen(message), 0) != strlen(message))
+            //char *message = "You have reached the server!\n";
+            char message = 1;
+            if(send(newSocket, &message, sizeof(message), 0) != sizeof(message))
             {
                 perror("Error in sending whole message");
                 syslog(LOG_INFO, "Error in sending whole message");
@@ -144,7 +161,7 @@ int main(int argc, char *argv[])
                     break;
                 }
                 //Possible TODO expand number of clients possible.
-            }   
+            }
             if (foundSpace == false)
             {
                 char *message = "There's no space on the server for you!\n";
@@ -152,17 +169,16 @@ int main(int argc, char *argv[])
                 send(newSocket, message, strlen(message), 0);
                 close(newSocket);
             }
-        }   
-	
+        }
 
         for (i = 0; i < maxClients; i++)
         {   
-            if (FD_ISSET(clients[i].descriptor, &descriptors))
+            if (FD_ISSET(clients[i].descriptor, &readDescriptors))
             {       
                 int charactersRead;
                 char buffer[1025];
-		charactersRead = read(clients[i].descriptor, buffer, 1024);
-		syslog(LOG_INFO, "Characters read: %d", charactersRead);
+		        charactersRead = read(clients[i].descriptor, buffer, 1024);
+		        syslog(LOG_INFO, "Characters read: %d", charactersRead);
                 if (charactersRead <= 0)
                 {   
                     //Socket disconnected, closed descriptor with nothing to read, or failed.
@@ -191,52 +207,78 @@ int main(int argc, char *argv[])
                     syslog(LOG_INFO, "Width: %d, Height: %d, Freq: %d ", clients[i].width, clients[i].height, clients[i].frequency);
                     //buffer[0] = '!';
                     buffer[charactersRead] = '\0';
+                    
+                    client[i].stream = capture_open_stream(IMAGE_JPEG, "resolution176x144&fps=1");
+                    if (client[i].stream == NULL) 
+                    {
+                        syslog(LOG_INFO, "Failed to open stream\n");
+                    }
+                }
+            }
 
+            if (FD_ISSET(clients[i].descriptor, &writeDescriptors))
+            {              
+                if (client[i].stream == NULL)
+                    continue;
 
-		    
-		    //cli_img_desc = "fps=25&sdk_format=Y800&resolution=350x288&rotation=180"; 
-		    //stream = capture_open_stream(IMAGE_JPEG, cli_img_desc);
+                if (client[i].frame == NULL)
+                {
+                    client[i].frame = capture_get_frame(client[i].stream);
 
- 			stream = capture_open_stream(IMAGE_JPEG, "resolution176x144&fps=1");
-  			if (stream == NULL) 
-			{
-    			   syslog(LOG_INFO, "Failed to open stream\n");
-			}
+                    syslog(LOG_INFO, "Getting %d frames. resolution: %dx%d framesize: %d\n",
+                    100,
+                    capture_frame_width(client[i].frame),
+                    capture_frame_height(client[i].frame),
+                    capture_frame_size(client[i].frame));
 
-			frame = capture_get_frame(stream);
-			syslog(LOG_INFO, "Getting %d frames. resolution: %dx%d framesize: %d\n",
-          		100,
-          		capture_frame_width(frame),
-         		capture_frame_height(frame),
-         		capture_frame_size(frame));
+                    client[i].data = capture_frame_data(client[i].frame);
+                    client[i].img_size = capture_frame_size(client[i].frame);
+                    syslog(LOG_INFO, "img_size is %d", client[i].img_size);
 
-			data = capture_frame_data(frame);
-			img_size = capture_frame_size(frame);
-			syslog(LOG_INFO, "img_size is %d", img_size);
-			unsigned char row_data[img_size];
-                        int r;
+                    if (send(clients[i].descriptor, &clients[i].img_size, sizeof(clients[i].img_size), 0) < 0)
+                    {
+                        clients[i].frame = NULL;
+                        clients[i].data = NULL;
+                        clients[i].img_size = 0;
+                    }
+                }
+                else
+                {
+                    ssize_t sent = send(clients[i].descriptor, clients[i].data + clients[i].img_sent, clients[i].img_size - clients[i].img_sent, 0);
+                    if (sent > 0)
+                    {
+                        clients[i].img_sent += sent;
+                    }
 
-			for(r = 0; r<img_size; r++)
-			{
-		           row_data[r] = ((unsigned char *)data)[r];
-			}
+                    if (clients[i].img_sent >= clients[i].img_size)
+                    {
+                        clients[i].frame = NULL;
+                        clients[i].data = NULL;
+                        clients[i].img_size = 0;
+                        clients[i].img_sent = 0;
+                    }
+                }
 
-			int err = write(clients[i].descriptor, row_data, strlen(row_data));
-			if(err < 0){
-				syslog(LOG_INFO,"erreor sendin");
-				memset(data,0 , sizeof(data));
-			}
+                
+                //unsigned char row_data[client[i].img_size];
+                //int r;
+                //for(r = 0; r < client[i].img_size; r++)
+                //{
+                //    row_data[r] = ((unsigned char *)client[i].data)[r];
+                //}
 
-			//write(clients[i].descriptor, row_data, strlen(row_data));	
-                        send(clients[i].descriptor, row_data, strlen(row_data), 0);
+                //int err = write(clients[i].descriptor, row_data, img_size);
+                //if(err < 0)
+                //{
+                //    syslog(LOG_INFO, "error sending");
+                //    memset(data, 0, sizeof(data));
+                //}
 
-                        //send(clients[i].descriptor, "he\n", 5, 0);
+                //write(clients[i].descriptor, row_data, strlen(row_data));	
 
-			
-                }   
-            }   
-        }   
-    }   
-
+                //send(clients[i].descriptor, "he\n", 5, 0);		
+            }
+        }
+    }
     return 0;
-}   
+}

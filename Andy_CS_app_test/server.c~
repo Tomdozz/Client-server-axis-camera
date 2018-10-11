@@ -39,7 +39,7 @@ char *cli_img_desc;
 
 int main(int argc, char *argv[])
 {  
-	syslog(LOG_INFO,"installing server version 3");      
+    syslog(LOG_INFO,"installing server version 3");      
     int maxClients = 30;
     connectionInfo clients[maxClients];
 
@@ -57,22 +57,22 @@ int main(int argc, char *argv[])
     }   
      
 
-    int optval = true;
-    if(setsockopt(masterSocket, SOL_SOCKET, SO_REUSEADDR, (char*)&optval, sizeof(optval)) < 0)
-    {   
-	syslog(LOG_INFO, "Failed to set master socket to reduce wait time.");
-        perror("Failed to set master socket to reduce wait time.");
-        exit(EXIT_FAILURE);
-    }   
+  //  int optval = true;
+  //  if(setsockopt(masterSocket, SOL_SOCKET, SO_REUSEADDR, (char*)&optval, sizeof(optval)) < 0)
+ //   {   
+//	syslog(LOG_INFO, "Failed to set master socket to reduce wait time.");
+   //     perror("Failed to set master socket to reduce wait time.");
+   //     exit(EXIT_FAILURE);
+   // }   
      
     struct sockaddr_in address;
     address.sin_family = AF_INET;
-    address.sin_addr.s_addr = IP_ADRESS;
+    address.sin_addr.s_addr = inet_addr("192.168.20.247");
     address.sin_port = htons(PORT);
          
     if (bind(masterSocket, (struct sockaddr*)&address, sizeof(address)) < 0)   
     {   
-	syslog(LOG_INFO,"Failed to set master socket to reduce wait time.");
+	syslog(LOG_INFO,"Failed to bind socket.");
         perror("Failed to bind socket");   
         exit(EXIT_FAILURE);   
     }   
@@ -87,6 +87,7 @@ int main(int argc, char *argv[])
 
     int addressSize = sizeof(address);
     puts("Waiting for connections...");
+    syslog(LOG_INFO, "waiting for connections...");
 
     while(true)
     {   
@@ -110,6 +111,7 @@ int main(int argc, char *argv[])
         if ((activity < 0) /*&& (errno!=EINTR)*/)
         {   
             printf("Error selecting activity");
+            syslog(LOG_INFO, "Error selecting activity");
         }
              
         if (FD_ISSET(masterSocket, &descriptors))
@@ -118,13 +120,16 @@ int main(int argc, char *argv[])
             if ((newSocket = accept(masterSocket, (struct sockaddr*)&address, (socklen_t*)&addressSize)) < 0)
             {   
                 perror("Error accepting new connection");
+                syslog(LOG_INFO, "Error accepting new connection");
             }   
             printf("New connection, socket descriptor is %d, ip is: %s, port: %d\n", newSocket, inet_ntoa(address.sin_addr), ntohs(address.sin_port));
+            syslog(LOG_INFO, "New connection, socket descriptor is %d, ip is: %s, port: %d\n", newSocket, inet_ntoa(address.sin_addr), ntohs(address.sin_port));
            
             char *message = "You have reached the server!\n";
             if(send(newSocket, message, strlen(message), 0) != strlen(message))
             {
                 perror("Error in sending whole message");
+                syslog(LOG_INFO, "Error in sending whole message");
             }
 
             bool foundSpace = false;
@@ -134,6 +139,7 @@ int main(int argc, char *argv[])
                 {
                     clients[i].descriptor = newSocket;
                     printf("Adding to list of sockets as %d\n" , i);
+                    syslog(LOG_INFO, "Adding to list of sockets as %d", i);
                     foundSpace = true;
                     break;
                 }
@@ -142,6 +148,7 @@ int main(int argc, char *argv[])
             if (foundSpace == false)
             {
                 char *message = "There's no space on the server for you!\n";
+                syslog(LOG_INFO, "There's no space on the server for you!");
                 send(newSocket, message, strlen(message), 0);
                 close(newSocket);
             }
@@ -159,6 +166,7 @@ int main(int argc, char *argv[])
                     //Socket disconnected, closed descriptor with nothing to read, or failed.
                     getpeername(clients[i].descriptor, (struct sockaddr*)&address, (socklen_t*)&addressSize);
                     printf("Disconnected, ip: %s, port: %d \n", inet_ntoa(address.sin_addr), ntohs(address.sin_port));
+                    syslog(LOG_INFO, "Disconnected, ip: %s, port: %d \n", inet_ntoa(address.sin_addr), ntohs(address.sin_port));
                     close(clients[i].descriptor);
                     resetClient(&clients[i]);
                 }
@@ -178,6 +186,7 @@ int main(int argc, char *argv[])
                     }
                     
                     printf("width: %d, height: %d, frequency: %d \n", clients[i].width, clients[i].height, clients[i].frequency);
+                    syslog(LOG_INFO, "Width: %d, Height: %d, Freq: %d ", clients[i].width, clients[i].height, clients[i].frequency);
                     //buffer[0] = '!';
                     buffer[charactersRead] = '\0';
                     send(clients[i].descriptor, buffer, strlen(buffer), 0);

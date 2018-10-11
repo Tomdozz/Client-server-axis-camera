@@ -50,7 +50,7 @@ public class GUI {
                     socket = new Socket(hostName, portNumber);
                     out = new PrintWriter(socket.getOutputStream(), true);
                     in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-
+                    
                     if (in.readLine().equals("You have reached the server!")) {
                         connectionStatusLabel.setForeground(new Color(58, 187, 35));
                         connectionStatusLabel.setText("Connected!");
@@ -171,10 +171,10 @@ public class GUI {
         portLabel.setText("Port");
         connectionPanel.add(portLabel, new com.intellij.uiDesigner.core.GridConstraints(3, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         ipText = new JTextField();
-        ipText.setText("127.0.0.1");
+        ipText.setText("192.168.20.247");
         connectionPanel.add(ipText, new com.intellij.uiDesigner.core.GridConstraints(2, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1), null, 0, false));
         portText = new JTextField();
-        portText.setText("9009");
+        portText.setText("9002");
         connectionPanel.add(portText, new com.intellij.uiDesigner.core.GridConstraints(4, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1), null, 0, false));
         connectButton = new JButton();
         connectButton.setText("Connect to server");

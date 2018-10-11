@@ -1,399 +1,219 @@
 
 ----- System log -----
 
-2018-02-08T12:29:52.510+00:00 axis-00408ce8dd13 [ ERR     ] parhand[621]: Failed to write to file. Broken pipe
-2018-02-08T12:34:40.447+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-02-08T12:37:04.631+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-02-08T12:43:58.163+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-02-08T12:46:41.999+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-02-08T12:51:12.573+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-02-08T12:52:34.157+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 4 times: [potentially unexpected fatal signal 11.]
-2018-02-08T12:55:54.721+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-02-08T12:56:55.218+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 4 times: [potentially unexpected fatal signal 11.]
-2018-02-08T12:58:04.487+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 2 times: [potentially unexpected fatal signal 11.]
-2018-02-08T13:01:37.868+00:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-02-08T13:03:04.787+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 4 times: [potentially unexpected fatal signal 11.]
-2018-02-08T13:04:04.847+00:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 2 times: [potentially unexpected fatal signal 11.]
-2018-09-06T10:18:00.669+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: Failed to unpack /tmp/hello_world: (tar: invalid magic#012tar: short read) (tar: invalid tar magic)
-2018-09-06T10:19:23.901+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: Failed to unpack /tmp/hello_world: (tar: invalid magic#012tar: short read) (tar: invalid tar magic)
-2018-09-06T10:19:35.207+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: Failed to unpack /tmp/hello_world.c: (tar: invalid magic#012tar: short read) (tar: invalid tar magic)
-2018-09-13T17:09:39.360+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-13T17:10:12.728+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T09:13:43.480+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: 'test' not found or not executable
-2018-09-14T09:14:12.039+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: 'test' not found or not executable
-2018-09-14T09:15:03.121+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: 'test' not found or not executable
-2018-09-14T09:35:19.007+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T09:36:20.596+02:00 axis-00408ce8dd13 [ CRIT    ] upload.cgi: 'test' not found or not executable
-2018-09-14T09:42:50.191+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T09:50:08.826+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T09:51:02.962+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T09:53:26.478+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T09:54:23.218+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T11:41:20.145+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T12:25:09.554+02:00 axis-00408ce8dd13 [ ERR     ] monolith[437]: (monolith) g_source_set_callback: assertion 'source != NULL' failed
-2018-09-14T12:25:09.556+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T12:25:09.787+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T12:47:54.034+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T13:55:31.678+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-14T13:55:32.287+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-17T12:55:35.372+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-17T15:47:13.010+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-17T16:04:00.919+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-17T16:04:21.527+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-17T16:05:46.077+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-17T16:06:32.316+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-17T16:09:03.909+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-20T17:36:19.691+02:00 axis-00408ce8dd13 [ ERR     ] cam_server_prog: Could not bind socket
-2018-09-21T13:10:52.462+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:10:52.475+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:11:06.291+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:11:06.292+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:11:19.284+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:11:19.294+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:11:32.273+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:11:32.283+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:11:45.275+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:11:45.287+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:11:58.291+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:11:58.292+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:12:11.357+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:12:11.365+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:12:24.286+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:12:24.291+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:12:37.285+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:12:37.293+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:12:50.288+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:12:50.306+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:13:03.292+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:13:03.302+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:13:16.311+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:13:16.322+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:13:29.300+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:13:29.306+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:13:42.279+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:13:42.281+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:13:55.286+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:13:55.294+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:14:08.299+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:14:08.304+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:14:21.286+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:14:21.295+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:14:34.277+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:14:34.291+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:14:47.284+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:14:47.292+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:15:00.290+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:15:00.291+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:15:13.329+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:15:13.330+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:15:26.232+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:15:26.238+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:15:39.236+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:15:39.242+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:15:52.234+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:15:52.241+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:16:05.263+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:16:05.264+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:16:18.227+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:16:18.234+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:16:31.256+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:16:31.265+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:16:44.263+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:16:44.264+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:16:57.263+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:16:57.268+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:17:10.228+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:17:10.229+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:17:23.346+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: An error occurred in "Send Video Clip" action: failed to transfer data: Couldn't connect to server
-2018-09-21T13:17:23.352+02:00 axis-00408ce8dd13 [ WARNING ] actionengined[1080]: Action failed, retry will be done in 10 seconds
-2018-09-21T13:31:34.421+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-21T13:51:26.500+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:51:26.622+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:51:28.134+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:51:30.944+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:51:41.061+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:51:41.062+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:51:41.130+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:53:22.026+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:53:23.255+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:53:29.487+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:53:29.489+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:53:29.562+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:53:38.443+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:53:39.679+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:53:47.486+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:53:47.491+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:53:47.562+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:53:48.641+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:53:51.121+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:54:07.696+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:54:07.696+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:54:07.752+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:55:48.855+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:55:51.686+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:56:00.922+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:56:00.923+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:56:00.981+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:56:10.037+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:56:12.876+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:56:20.348+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:56:20.349+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:56:20.416+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:56:22.716+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:56:26.131+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:56:28.396+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:56:28.401+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:56:28.497+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:57:07.703+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:57:10.504+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:57:18.803+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:57:18.804+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:57:18.877+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:57:43.023+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:57:46.247+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:57:51.140+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:57:51.142+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T13:57:51.209+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T13:59:52.969+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T13:59:55.641+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:00:24.336+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:00:24.341+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:00:24.393+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:00:26.701+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:00:27.673+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:00:32.000+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:00:32.000+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:00:32.054+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:00:48.736+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:00:49.849+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:01:00.396+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:01:00.396+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:01:00.454+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:03:54.195+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:03:56.315+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:03:59.892+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:03:59.893+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:03:59.989+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:04:09.246+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:04:10.348+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:04:13.473+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:04:13.474+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:04:13.569+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:04:30.364+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:04:31.292+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:04:37.471+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:04:37.476+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:04:37.568+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:04:40.678+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:04:43.466+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:04:47.170+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:04:47.171+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:04:47.264+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:06:43.861+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:06:45.140+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:06:58.551+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:06:58.552+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:06:58.654+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:07:00.890+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:07:03.269+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:07:08.741+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:07:08.741+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:07:08.859+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:10:57.174+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:10:57.971+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:11:05.251+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:11:05.254+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:11:05.336+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:11:07.737+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:11:10.299+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:11:33.850+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:11:33.854+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:11:33.932+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:11:38.667+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:11:43.108+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:15:34.674+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:15:34.675+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:15:34.802+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:15:40.767+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:15:45.301+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:19:12.636+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:19:12.640+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:19:12.789+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:19:17.836+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:19:21.792+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:20:08.029+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:20:08.030+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:20:08.111+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:20:11.967+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:20:16.439+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:20:42.312+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:20:42.313+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:20:42.457+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:23:03.519+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:23:07.551+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:23:17.254+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:23:17.256+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:23:17.397+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:23:19.752+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:23:22.336+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:23:33.016+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:23:33.016+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:23:33.109+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:23:35.432+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:23:40.039+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:23:53.063+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:23:53.064+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:23:53.193+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:23:56.338+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:24:01.240+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:24:10.587+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:24:10.590+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:24:10.734+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:24:12.890+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:24:17.737+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:24:26.532+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:24:26.533+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:24:26.713+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:24:47.842+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:24:55.369+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:26:07.345+02:00 axis-00408ce8dd13 [ INFO    ] test: Handler!
-2018-09-21T14:26:13.752+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:33:58.546+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:33:58.555+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:33:58.734+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:34:00.411+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:34:00.411+02:00 axis-00408ce8dd13 [ INFO    ] test: SENDING MESSAGE!!
-2018-09-21T14:34:00.620+02:00 axis-00408ce8dd13 [ INFO    ] test: Client is disconnected
-2018-09-21T14:45:57.509+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Sending renew...
-2018-09-21T14:45:59.570+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-09-21T14:46:00.056+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: default IPv4 gateway: '192.168.20.1'.
-2018-09-21T14:46:58.653+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/test_1_0_mipsisa32r2el.eap' size:36681
-2018-09-21T14:46:59.188+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdktest stop
-2018-09-21T14:46:59.282+02:00 axis-00408ce8dd13 [ INFO    ] test[0]: stopping test
-2018-09-21T14:47:01.667+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-21T14:47:04.391+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/test_1_0_mipsisa32r2el.eap installation OK
-2018-09-21T14:47:04.394+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-09-21T14:47:06.163+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdktest start
-2018-09-21T14:47:06.454+02:00 axis-00408ce8dd13 [ INFO    ] test[0]: starting test
-2018-09-21T18:05:35.764+02:00 axis-00408ce8dd13 [ INFO    ] focusd[1168]: max_pos was 113
-2018-09-21T18:05:35.765+02:00 axis-00408ce8dd13 [ INFO    ] focusd[1168]: max_pos now is 114
-2018-09-21T18:05:35.768+02:00 axis-00408ce8dd13 [ INFO    ] focusd[1168]: focusd[1168]: max_pos was 113
-2018-09-21T18:05:35.770+02:00 axis-00408ce8dd13 [ INFO    ] focusd[1168]: focusd[1168]: max_pos now is 114
-2018-09-22T02:46:00.369+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Sending renew...
-2018-09-22T02:46:02.417+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-09-22T02:46:02.734+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: default IPv4 gateway: '192.168.20.1'.
-2018-09-22T14:46:02.968+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Sending renew...
-2018-09-22T14:46:07.036+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-09-22T14:46:07.350+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: default IPv4 gateway: '192.168.20.1'.
-2018-09-23T02:46:07.577+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Sending renew...
-2018-09-23T02:46:09.627+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-09-23T02:46:09.949+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: default IPv4 gateway: '192.168.20.1'.
-2018-09-23T14:46:10.177+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Sending renew...
-2018-09-23T14:46:12.227+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-09-23T14:46:12.543+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: default IPv4 gateway: '192.168.20.1'.
-2018-09-24T02:46:12.768+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Sending renew...
-2018-09-24T02:46:16.825+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-09-24T02:46:17.136+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: default IPv4 gateway: '192.168.20.1'.
-2018-09-24T14:46:17.367+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Sending renew...
-2018-09-24T14:46:19.419+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-09-24T14:46:19.733+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: default IPv4 gateway: '192.168.20.1'.
-2018-09-25T02:46:19.969+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Sending renew...
-2018-09-25T02:46:23.017+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: Lease of 192.168.20.247 obtained, lease time 86400
-2018-09-25T02:46:23.340+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[648]: default IPv4 gateway: '192.168.20.1'.
-2018-09-25T11:34:44.134+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:5081
-2018-09-25T11:34:45.013+02:00 axis-00408ce8dd13 [ WARNING ] upload.cgi: ldd: /tmp/pack.2Eo3rg/server: error while loading shared libraries: /tmp/pack.2Eo3rg/server: wrong ELF class: ELFCLASS64#012ldd: /tmp/pack.2Eo3rg/server: error while loading shared libraries: /tmp/pack.2Eo3rg/server: wrong ELF class: ELFCLASS64#012Error: "/tmp/pack.2Eo3rg/server" has the wrong type; it's#012       an executable file for X86_64 (AMD x86-64 architecture)#012 (expected:)#012       an executable file for MIPS (MIPS R3000 big-endian)
-2018-09-25T11:35:42.992+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:5081
-2018-09-25T11:35:43.876+02:00 axis-00408ce8dd13 [ WARNING ] upload.cgi: ldd: /tmp/pack.nnzyQ8/server: error while loading shared libraries: /tmp/pack.nnzyQ8/server: wrong ELF class: ELFCLASS64#012ldd: /tmp/pack.nnzyQ8/server: error while loading shared libraries: /tmp/pack.nnzyQ8/server: wrong ELF class: ELFCLASS64#012Error: "/tmp/pack.nnzyQ8/server" has the wrong type; it's#012       an executable file for X86_64 (AMD x86-64 architecture)#012 (expected:)#012       an executable file for MIPS (MIPS R3000 big-endian)
-2018-09-25T11:39:12.923+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:5089
-2018-09-25T11:39:13.807+02:00 axis-00408ce8dd13 [ WARNING ] upload.cgi: ldd: /tmp/pack.yGvM03/server: error while loading shared libraries: /tmp/pack.yGvM03/server: wrong ELF class: ELFCLASS64#012ldd: /tmp/pack.yGvM03/server: error while loading shared libraries: /tmp/pack.yGvM03/server: wrong ELF class: ELFCLASS64#012Error: "/tmp/pack.yGvM03/server" has the wrong type; it's#012       an executable file for X86_64 (AMD x86-64 architecture)#012 (expected:)#012       an executable file for MIPS (MIPS R3000 big-endian)
-2018-09-25T11:40:45.359+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:5088
-2018-09-25T11:40:46.249+02:00 axis-00408ce8dd13 [ WARNING ] upload.cgi: ldd: /tmp/pack.Nn7yAp/server: error while loading shared libraries: /tmp/pack.Nn7yAp/server: wrong ELF class: ELFCLASS64#012ldd: /tmp/pack.Nn7yAp/server: error while loading shared libraries: /tmp/pack.Nn7yAp/server: wrong ELF class: ELFCLASS64#012Error: "/tmp/pack.Nn7yAp/server" has the wrong type; it's#012       an executable file for X86_64 (AMD x86-64 architecture)#012 (expected:)#012       an executable file for MIPS (MIPS R3000 big-endian)
-2018-09-25T11:42:03.838+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:5090
-2018-09-25T11:42:04.725+02:00 axis-00408ce8dd13 [ WARNING ] upload.cgi: ldd: /tmp/pack.Gw4llV/server: error while loading shared libraries: /tmp/pack.Gw4llV/server: wrong ELF class: ELFCLASS64#012ldd: /tmp/pack.Gw4llV/server: error while loading shared libraries: /tmp/pack.Gw4llV/server: wrong ELF class: ELFCLASS64#012Error: "/tmp/pack.Gw4llV/server" has the wrong type; it's#012       an executable file for X86_64 (AMD x86-64 architecture)#012 (expected:)#012       an executable file for MIPS (MIPS R3000 big-endian)
-2018-09-25T11:42:30.512+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:5120
-2018-09-25T11:42:31.178+02:00 axis-00408ce8dd13 [ WARNING ] upload.cgi: ldd: /tmp/pack.fpuLLA/server: error while loading shared libraries: /tmp/pack.fpuLLA/server: wrong ELF class: ELFCLASS64#012ldd: /tmp/pack.fpuLLA/server: error while loading shared libraries: /tmp/pack.fpuLLA/server: wrong ELF class: ELFCLASS64#012Error: "/tmp/pack.fpuLLA/server" has the wrong type; it's#012       an executable file for X86_64 (AMD x86-64 architecture)#012 (expected:)#012       an executable file for MIPS (MIPS R3000 big-endian)
-2018-09-25T11:43:15.070+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:5124
-2018-09-25T11:43:15.823+02:00 axis-00408ce8dd13 [ WARNING ] upload.cgi: ldd: /tmp/pack.gIobNh/server: error while loading shared libraries: /tmp/pack.gIobNh/server: wrong ELF class: ELFCLASS64#012ldd: /tmp/pack.gIobNh/server: error while loading shared libraries: /tmp/pack.gIobNh/server: wrong ELF class: ELFCLASS64#012Error: "/tmp/pack.gIobNh/server" has the wrong type; it's#012       an executable file for X86_64 (AMD x86-64 architecture)#012 (expected:)#012       an executable file for MIPS (MIPS R3000 big-endian)
-2018-09-25T11:44:27.219+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:5091
-2018-09-25T11:44:27.877+02:00 axis-00408ce8dd13 [ WARNING ] upload.cgi: ldd: /tmp/pack.duVFGi/server: error while loading shared libraries: /tmp/pack.duVFGi/server: wrong ELF class: ELFCLASS64#012ldd: /tmp/pack.duVFGi/server: error while loading shared libraries: /tmp/pack.duVFGi/server: wrong ELF class: ELFCLASS64#012Error: "/tmp/pack.duVFGi/server" has the wrong type; it's#012       an executable file for X86_64 (AMD x86-64 architecture)#012 (expected:)#012       an executable file for MIPS (MIPS R3000 big-endian)
-2018-09-25T11:48:05.169+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/cam_server_prog_1_0_mipsisa32r2el.eap' size:33985
-2018-09-25T11:48:06.616+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-25T11:48:06.768+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/cam_server_prog_1_0_mipsisa32r2el.eap installation OK
-2018-09-25T11:50:55.181+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:5091
-2018-09-25T11:50:55.834+02:00 axis-00408ce8dd13 [ WARNING ] upload.cgi: ldd: /tmp/pack.CmEbqd/server: error while loading shared libraries: /tmp/pack.CmEbqd/server: wrong ELF class: ELFCLASS64#012ldd: /tmp/pack.CmEbqd/server: error while loading shared libraries: /tmp/pack.CmEbqd/server: wrong ELF class: ELFCLASS64#012Error: "/tmp/pack.CmEbqd/server" has the wrong type; it's#012       an executable file for X86_64 (AMD x86-64 architecture)#012 (expected:)#012       an executable file for MIPS (MIPS R3000 big-endian)
-2018-09-25T11:54:05.849+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35550
-2018-09-25T11:54:07.340+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-25T11:54:07.472+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
-2018-09-25T11:55:10.815+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35618
-2018-09-25T11:55:11.876+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-25T11:55:13.504+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
-2018-09-25T11:55:13.507+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-09-25T11:55:53.870+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35559
-2018-09-25T11:55:54.938+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-25T11:55:56.571+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
-2018-09-25T11:55:56.573+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-09-25T11:58:08.558+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T11:58:08.850+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T11:58:09.006+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:07:46.971+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
-2018-09-25T12:07:47.272+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
-2018-09-25T12:07:47.468+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
-2018-09-25T12:07:47.469+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
-2018-09-25T12:07:47.469+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
-2018-09-25T12:07:50.249+02:00 axis-00408ce8dd13 [ WARNING ] cam_server_prog: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-09-25T12:07:50.327+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-09-25T12:10:31.809+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdktest stop
-2018-09-25T12:10:31.853+02:00 axis-00408ce8dd13 [ INFO    ] test[0]: stopping test
-2018-09-25T12:10:42.295+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:10:42.588+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:10:42.864+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:10:48.898+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:10:49.198+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:10:49.469+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:10:58.961+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:10:59.257+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:10:59.409+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:11:15.054+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:11:15.352+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:11:15.571+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:11:30.628+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-25T12:11:30.961+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-25T12:11:39.767+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:11:40.056+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:11:40.358+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:11:53.630+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:11:53.924+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:11:54.143+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:19:07.448+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35559
-2018-09-25T12:19:08.521+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-25T12:19:10.133+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
-2018-09-25T12:19:10.135+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-09-25T12:19:32.419+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:19:32.709+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:19:32.866+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:19:50.286+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:19:50.577+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:19:50.771+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:20:03.673+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:20:03.960+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:20:04.254+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:21:17.499+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:21:17.789+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:21:17.983+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:21:27.277+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:21:27.564+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:21:27.864+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:23:49.798+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35556
-2018-09-25T12:23:50.863+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-25T12:23:52.493+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
-2018-09-25T12:23:52.497+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-09-25T12:24:04.681+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:24:04.976+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:24:05.133+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:24:45.741+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkserver start
-2018-09-25T12:24:46.021+02:00 axis-00408ce8dd13 [ INFO    ] server[0]: starting server
-2018-09-25T12:24:46.188+02:00 axis-00408ce8dd13 [ INFO    ] server: installing server
-2018-09-25T12:24:53.241+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35558
-2018-09-25T12:24:54.315+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: [system] Reloaded configuration
-2018-09-25T12:24:55.956+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
-2018-09-25T12:24:55.957+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[614]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-09-30T15:25:38.746+02:00 axis-00408ce8dd13 [ WARNING ] scheduled[633]: Timezone was manipulated!
+2018-09-30T15:25:44.790+02:00 axis-00408ce8dd13 [ WARNING ] disks[692]: disk.c : Disk disruption detection status changed for SD_DISK. Status = 'disruption'
+2018-09-30T15:25:45.050+02:00 axis-00408ce8dd13 [ WARNING ] disks[692]: disk.c : Disk disruption detection status changed for NetworkShare. Status = 'disruption'
+2018-09-30T15:25:48.267+02:00 axis-00408ce8dd13 [ WARNING ] systemd[1]: upnp.service: State 'stop-sigterm' timed out. Killing.
+2018-09-30T15:25:48.364+02:00 axis-00408ce8dd13 [ WARNING ] systemd[1]: upnp.service: Failed with result 'signal'.
+2018-10-04T12:33:26.065+02:00 axis-00408ce8dd13 [ WARNING ] cam_server_prog: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-04T12:33:26.149+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-04T12:42:27.517+02:00 axis-00408ce8dd13 [ WARNING ] cam_server_prog: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-04T12:42:27.599+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-04T12:50:14.174+02:00 axis-00408ce8dd13 [ WARNING ] cam_server_prog: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-04T12:50:14.259+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-04T17:50:16.561+02:00 axis-00408ce8dd13 [ WARNING ] monolith[300]: (fdsrc0:src) /home/svcj/workspace/FP-PM-Echo-FWRT_5_90_1-PRODUCTS-FWRT_Q1604_FW-2/fwrt/products-camera-q1604-rel-5.90.1-maint/unpacked/libs/gstreamer-IR1.4.5-1/gstreamer/gst/gstpad.c:4655:store_sticky_event:<auparse0:src> Sticky event misordering, got 'segment' before 'caps'
+2018-10-04T17:50:16.562+02:00 axis-00408ce8dd13 [ WARNING ] monolith[300]: (fdsrc0:src) /home/svcj/workspace/FP-PM-Echo-FWRT_5_90_1-PRODUCTS-FWRT_Q1604_FW-2/fwrt/products-camera-q1604-rel-5.90.1-maint/unpacked/libs/gstreamer-IR1.4.5-1/gstreamer/gst/gstpad.c:4655:store_sticky_event:<mulawdec0:sink> Sticky event misordering, got 'segment' before 'caps'
+2018-10-09T15:21:03.928+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-09T15:22:25.830+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-09T15:35:05.989+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-09T15:36:22.380+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-09T15:37:41.374+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-10T15:05:12.612+02:00 axis-00408ce8dd13 [ INFO    ] main[0]: starting main
+2018-10-10T15:05:15.428+02:00 axis-00408ce8dd13 [ INFO    ] main: using capture
+2018-10-10T15:07:01.834+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkmain start
+2018-10-10T15:07:02.134+02:00 axis-00408ce8dd13 [ INFO    ] main[0]: starting main
+2018-10-10T15:07:06.702+02:00 axis-00408ce8dd13 [ INFO    ] main: using capture
+2018-10-10T15:18:19.141+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkmain start
+2018-10-10T15:18:19.439+02:00 axis-00408ce8dd13 [ INFO    ] main[0]: starting main
+2018-10-10T15:18:23.150+02:00 axis-00408ce8dd13 [ INFO    ] main: using capture
+2018-10-10T15:26:18.439+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: Sending renew...
+2018-10-10T15:26:20.499+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: Lease of 192.168.20.247 obtained, lease time 86400
+2018-10-10T15:26:20.842+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: default IPv4 gateway: '192.168.20.1'.
+2018-10-11T03:26:21.089+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: Sending renew...
+2018-10-11T03:26:23.140+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: Lease of 192.168.20.247 obtained, lease time 86400
+2018-10-11T03:26:23.483+02:00 axis-00408ce8dd13 [ INFO    ] udhcpc[465]: default IPv4 gateway: '192.168.20.1'.
+2018-10-11T10:06:14.220+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
+2018-10-11T10:06:14.524+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
+2018-10-11T10:06:14.826+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
+2018-10-11T10:06:14.838+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
+2018-10-11T10:06:14.843+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
+2018-10-11T10:06:41.690+02:00 axis-00408ce8dd13 [ WARNING ] cam_server_prog: sdk_format only to be used with IMAGE_UNCOMPRESSED.
+2018-10-11T10:06:41.779+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-11T10:42:31.914+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
+2018-10-11T10:42:32.225+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
+2018-10-11T10:42:32.459+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
+2018-10-11T10:42:32.459+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
+2018-10-11T10:42:32.460+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
+2018-10-11T10:45:05.625+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
+2018-10-11T10:45:05.936+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
+2018-10-11T10:45:06.238+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
+2018-10-11T10:45:06.238+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
+2018-10-11T10:45:06.239+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
+2018-10-11T10:47:14.182+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
+2018-10-11T10:47:14.489+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
+2018-10-11T10:47:14.812+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
+2018-10-11T10:47:14.812+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
+2018-10-11T10:47:14.813+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
+2018-10-11T10:48:26.578+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server_prog start
+2018-10-11T10:48:26.893+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog[0]: starting cam_server_prog
+2018-10-11T10:48:27.179+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: test 2, server
+2018-10-11T10:48:27.180+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully binded
+2018-10-11T10:48:27.180+02:00 axis-00408ce8dd13 [ INFO    ] cam_server_prog: socket successfully created
+2018-10-11T10:51:27.220+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35588
+2018-10-11T10:51:28.359+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T10:51:30.126+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T10:51:30.128+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T10:51:52.203+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T10:51:52.553+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T10:52:05.422+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/server_package_1_0_mipsisa32r2el.eap' size:35588
+2018-10-11T10:52:06.547+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T10:52:08.227+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/server_package_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T10:52:08.228+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T10:55:44.034+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35751
+2018-10-11T10:55:45.557+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T10:55:45.745+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T10:55:53.601+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T10:55:53.905+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T10:55:54.076+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T10:55:54.080+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
+2018-10-11T10:56:11.609+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T10:56:11.922+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T10:56:12.119+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T10:56:12.123+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
+2018-10-11T10:56:30.411+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T10:56:30.729+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T10:56:30.907+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T10:56:30.908+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
+2018-10-11T10:56:45.058+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: Application 'cam_server' is not running
+2018-10-11T11:04:26.327+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35511
+2018-10-11T11:04:27.477+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:04:27.850+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:04:29.165+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:04:29.223+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:04:39.410+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:04:39.733+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:04:39.894+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:05:01.865+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T11:05:01.912+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T11:05:07.516+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:05:07.832+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:05:07.992+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:31:02.800+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35530
+2018-10-11T11:31:03.144+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T11:31:03.189+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T11:31:04.207+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:31:05.959+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:31:05.961+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T11:31:14.487+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:31:14.808+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:31:14.973+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:31:14.974+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
+2018-10-11T11:34:07.339+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T11:34:07.385+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T11:34:13.772+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35595
+2018-10-11T11:34:14.912+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:34:16.673+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:34:16.675+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T11:34:21.516+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:34:21.823+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:34:21.992+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:34:21.993+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
+2018-10-11T11:36:00.674+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:36:00.987+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:36:01.170+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to set master socket to reduce wait time.
+2018-10-11T11:36:01.170+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:36:15.151+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35761
+2018-10-11T11:36:16.287+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:36:18.059+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:36:18.061+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T11:36:29.896+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:36:30.209+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:36:30.378+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:36:30.379+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
+2018-10-11T11:36:52.287+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:36:52.653+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:37:16.673+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35760
+2018-10-11T11:37:18.156+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:37:18.382+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:37:23.894+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:37:24.205+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:37:24.371+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
+2018-10-11T11:37:24.371+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:39:12.737+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:39:13.062+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:39:22.800+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35761
+2018-10-11T11:39:24.499+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:39:24.540+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:39:51.354+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:39:51.673+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:39:51.846+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:39:51.847+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
+2018-10-11T11:41:05.684+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: Application 'cam_server' is not running
+2018-10-11T11:41:18.251+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35588
+2018-10-11T11:41:19.392+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:41:21.137+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:41:21.139+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T11:41:26.429+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:41:26.744+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:41:26.905+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:41:26.909+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
+2018-10-11T11:44:32.429+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35785
+2018-10-11T11:44:33.562+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:44:35.366+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:44:35.367+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T11:44:40.572+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:44:40.887+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:44:41.064+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:44:41.068+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
+2018-10-11T11:45:24.075+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
+2018-10-11T11:47:50.123+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35635
+2018-10-11T11:47:50.463+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T11:47:50.514+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T11:47:51.562+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:47:53.326+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:47:53.328+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-11T11:47:57.267+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:47:57.591+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:47:57.752+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Failed to bind socket.
+2018-10-11T11:47:57.752+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:49:04.317+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:49:04.684+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:49:20.620+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35642
+2018-10-11T11:49:22.159+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:49:22.344+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:49:29.056+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:49:29.371+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:49:29.539+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:49:29.539+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
+2018-10-11T11:50:16.682+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is, ip is, port:
+2018-10-11T11:50:16.683+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
+2018-10-11T11:51:59.681+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected!
+2018-10-11T11:52:08.870+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is, ip is, port:
+2018-10-11T11:52:08.872+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
+2018-10-11T11:53:01.606+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected!
+2018-10-11T11:53:13.105+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is, ip is, port:
+2018-10-11T11:53:13.106+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
+2018-10-11T11:53:39.404+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width, Height, Freq
+2018-10-11T11:53:50.708+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected!
+2018-10-11T11:55:12.616+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T11:55:12.672+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T11:55:13.668+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:55:14.049+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:55:23.314+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35653
+2018-10-11T11:55:24.834+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:55:25.025+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK
+2018-10-11T11:55:29.462+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
+2018-10-11T11:55:29.777+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
+2018-10-11T11:55:29.940+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
+2018-10-11T11:55:29.942+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
+2018-10-11T11:55:47.245+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is, ip is, port:
+2018-10-11T11:55:47.247+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as
+2018-10-11T11:55:49.892+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
+2018-10-11T11:59:17.162+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
+2018-10-11T11:59:17.208+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
+2018-10-11T11:59:24.473+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T11:59:24.817+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T12:00:07.820+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nyserver_1_0_mipsisa32r2el.eap' size:35678
+2018-10-11T12:00:09.350+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
+2018-10-11T12:00:09.546+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nyserver_1_0_mipsisa32r2el.eap installation OK

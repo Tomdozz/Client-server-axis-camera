@@ -7,6 +7,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.*;
+import java.io.File;
+import java.nio.file.Files;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
@@ -69,7 +71,11 @@ public class GUI {
                     out.println(msg);
                     out.flush();
                     
-                    System.out.print(in.readLine());
+                    //System.out.print(in.readLine());
+                    System.out.print(in.read());
+                    System.out.print(in.read());
+                    System.out.print(in.read());
+                    System.out.print(in.read());
 
                 } catch (UnknownHostException e1) {
                     e1.printStackTrace();

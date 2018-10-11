@@ -227,7 +227,6 @@ int main(int argc, char *argv[])
 				memset(data,0 , sizeof(data));
 			}
 
-			row_data[img_size] = '\n';
 			//write(clients[i].descriptor, row_data, strlen(row_data));	
                         send(clients[i].descriptor, row_data, strlen(row_data), 0);
 

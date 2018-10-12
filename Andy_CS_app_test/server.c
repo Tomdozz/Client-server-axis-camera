@@ -1,13 +1,13 @@
-#include <stdio.h> //
-#include <string.h> //
-#include <stdlib.h> //
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 ///#include <errno.h>	Doesn't work with the camera.
-#include <unistd.h> //
-#include <syslog.h> //
+#include <unistd.h>
+#include <syslog.h>
 #include <arpa/inet.h> //Not needed due to netinet/in.h, but kept.
-#include <sys/types.h> //
-#include <sys/socket.h> //
-#include <netinet/in.h> //
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
 #include <sys/time.h>
 #include <stdbool.h>
 #include <capture.h>
@@ -205,17 +205,11 @@ int main(int argc, char *argv[])
                     
                     printf("width: %d, height: %d, frequency: %d \n", clients[i].width, clients[i].height, clients[i].frequency);
                     syslog(LOG_INFO, "Width: %d, Height: %d, Freq: %d ", clients[i].width, clients[i].height, clients[i].frequency);
-                    //buffer[0] = '!';
-                    buffer[charactersRead] = '\0';
-                    
-
-			char *msg;
-		    snprintf("resolution%dx%d&fps=%d", clients[i].width, clients[i].height, clients[i].frequency);
-			snprintf(msg, sizeof(szBuffer),"&#37;d",num);
-
-			//Måste bygga msg med digits.
-		    syslog(LOG_INFO, msg);
-                    clients[i].stream = capture_open_stream(IMAGE_JPEG, msg);
+                 
+                    char imgDescription[100];
+                    snprintf(imgDescriprion, sizeof(imgDescriprion), "resolution%dx%d&fps=%d", clients[i].width, clients[i].height, clients[i].frequency);
+                    syslog(LOG_INFO, imgDescriprion);
+                    clients[i].stream = capture_open_stream(IMAGE_JPEG, imgDescriprion);
                     if (clients[i].stream == NULL) 
                     {
                         syslog(LOG_INFO, "Failed to open stream\n");
@@ -243,7 +237,7 @@ int main(int argc, char *argv[])
                     syslog(LOG_INFO, "img_size is %d", clients[i].img_size);
 
 
-		    int converted = htonl(clients[i].img_size); //Possibly needed in client?
+		            int converted = htonl(clients[i].img_size);
                     if (send(clients[i].descriptor, &converted, sizeof(converted), 0) < 0)
                     {
                         clients[i].frame = NULL;
@@ -253,6 +247,7 @@ int main(int argc, char *argv[])
                 }
                 else
                 {
+                    //No need for htonl here, it handles byte order as in ints and such, not bit order as in what we send here.
                     ssize_t sent = send(clients[i].descriptor, clients[i].data + clients[i].img_sent, clients[i].img_size - clients[i].img_sent, 0);
                     if (sent > 0)
                     {
@@ -266,28 +261,10 @@ int main(int argc, char *argv[])
                         clients[i].img_size = 0;
                         clients[i].img_sent = 0;
                     }
-                }
-
-                
-                //unsigned char row_data[client[i].img_size];
-                //int r;
-                //for(r = 0; r < client[i].img_size; r++)
-                //{
-                //    row_data[r] = ((unsigned char *)client[i].data)[r];
-                //}
-
-                //int err = write(clients[i].descriptor, row_data, img_size);
-                //if(err < 0)
-                //{
-                //    syslog(LOG_INFO, "error sending");
-                //    memset(data, 0, sizeof(data));
-                //}
-
-                //write(clients[i].descriptor, row_data, strlen(row_data));	
-
-                //send(clients[i].descriptor, "he\n", 5, 0);		
+                }		
             }
         }
     }
+
     return 0;
 }

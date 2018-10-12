@@ -25,7 +25,7 @@ typedef struct connectionInfo
     media_frame *frame;
     void *data;
     media_stream *stream;
-    size_t img_size;
+    int img_size;
     char *client_img_desc;
 
     size_t img_sent;
@@ -208,8 +208,15 @@ int main(int argc, char *argv[])
                     //buffer[0] = '!';
                     buffer[charactersRead] = '\0';
                     
-                    client[i].stream = capture_open_stream(IMAGE_JPEG, "resolution176x144&fps=1");
-                    if (client[i].stream == NULL) 
+
+			char *msg;
+		    snprintf("resolution%dx%d&fps=%d", clients[i].width, clients[i].height, clients[i].frequency);
+			snprintf(msg, sizeof(szBuffer),"&#37;d",num);
+
+			//Måste bygga msg med digits.
+		    syslog(LOG_INFO, msg);
+                    clients[i].stream = capture_open_stream(IMAGE_JPEG, msg);
+                    if (clients[i].stream == NULL) 
                     {
                         syslog(LOG_INFO, "Failed to open stream\n");
                     }
@@ -218,24 +225,26 @@ int main(int argc, char *argv[])
 
             if (FD_ISSET(clients[i].descriptor, &writeDescriptors))
             {              
-                if (client[i].stream == NULL)
+                if (clients[i].stream == NULL)
                     continue;
 
-                if (client[i].frame == NULL)
+                if (clients[i].frame == NULL)
                 {
-                    client[i].frame = capture_get_frame(client[i].stream);
+                    clients[i].frame = capture_get_frame(clients[i].stream);
 
                     syslog(LOG_INFO, "Getting %d frames. resolution: %dx%d framesize: %d\n",
                     100,
-                    capture_frame_width(client[i].frame),
-                    capture_frame_height(client[i].frame),
-                    capture_frame_size(client[i].frame));
+                    capture_frame_width(clients[i].frame),
+                    capture_frame_height(clients[i].frame),
+                    capture_frame_size(clients[i].frame));
 
-                    client[i].data = capture_frame_data(client[i].frame);
-                    client[i].img_size = capture_frame_size(client[i].frame);
-                    syslog(LOG_INFO, "img_size is %d", client[i].img_size);
+                    clients[i].data = capture_frame_data(clients[i].frame);
+                    clients[i].img_size = capture_frame_size(clients[i].frame);
+                    syslog(LOG_INFO, "img_size is %d", clients[i].img_size);
 
-                    if (send(clients[i].descriptor, &clients[i].img_size, sizeof(clients[i].img_size), 0) < 0)
+
+		    int converted = htonl(clients[i].img_size); //Possibly needed in client?
+                    if (send(clients[i].descriptor, &converted, sizeof(converted), 0) < 0)
                     {
                         clients[i].frame = NULL;
                         clients[i].data = NULL;

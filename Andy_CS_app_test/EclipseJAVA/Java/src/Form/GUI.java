@@ -9,7 +9,6 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 import java.io.File;
 import java.nio.ByteBuffer;
-import java.nio.file.Files;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
@@ -74,10 +73,13 @@ public class GUI {
                     //Om det inte går med repaint så bryt ut det till en annan tråd.
                     
                     byte buffer[] = new byte[4];
-                    in.read(buffer);
+                    int a = in.read(buffer);
+                    System.out.print(a + "\n");
                     
                     ByteBuffer wrapped = ByteBuffer.wrap(buffer);
                     int imgSize = wrapped.getInt();
+                    
+                    System.out.print(imgSize + "\n");
                     
                     buffer = new byte[imgSize];
                     

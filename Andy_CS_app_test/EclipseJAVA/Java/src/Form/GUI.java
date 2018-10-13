@@ -40,7 +40,7 @@ public class GUI {
 	String hostName;
 	int portNumber;
 
-	public GUI(JFrame frame) {
+	public GUI(final JFrame frame) {
 		connectButton.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
@@ -69,29 +69,44 @@ public class GUI {
 					// TODO while true som uppdaterar bilden, GUIn kommer frysa men bilden blir bra?
 					// Alt. repaint kan behövas
 					// Om det inte går med repaint så bryt ut det till en annan tråd.
+					
+					(new Thread(new Runnable(){
+						
+						 public void run() {
+							 while(true)
+							 {
+							 try{
+								byte buffer[] = new byte[4];
+								int a = in.read(buffer);
+								System.out.print(a + "\n");
 
-					byte buffer[] = new byte[4];
-					int a = in.read(buffer);
-					System.out.print(a + "\n");
+								ByteBuffer wrapped = ByteBuffer.wrap(buffer);
+								int imgSize = wrapped.getInt();
 
-					ByteBuffer wrapped = ByteBuffer.wrap(buffer);
-					int imgSize = wrapped.getInt();
+								System.out.print(imgSize + "\n");
 
-					System.out.print(imgSize + "\n");
+								buffer = new byte[imgSize];
 
-					buffer = new byte[imgSize];
+								for (int i = 0; i < imgSize;) {
+									i += in.read(buffer, i, imgSize - i);
+								}
 
-					for (int i = 0; i < imgSize;) {
-						i += in.read(buffer, i, imgSize - i);
-					}
+								BufferedImage img = ImageIO.read(new ByteArrayInputStream(buffer));
+								imageLabel.setIcon(new ImageIcon(img));
+								frame.pack();
 
-					BufferedImage img = ImageIO.read(new ByteArrayInputStream(buffer));
-					imageLabel.setIcon(new ImageIcon(img));
-					frame.pack();
-
-					resolutionStatusLabel.setText("Resolution: " + widthText.getText() + "x" + heightText.getText());
-					frequencyStatusLabel.setText("Frequency: " + frequencyText.getText());
-
+								resolutionStatusLabel.setText("Resolution: " + widthText.getText() + "x" + heightText.getText());
+								frequencyStatusLabel.setText("Frequency: " + frequencyText.getText());
+							 }
+							 catch(Exception e)
+							 {
+							 }
+							 }
+							 
+						    }
+						
+						
+					})).start();
 				} catch (UnknownHostException e1) {
 					e1.printStackTrace();
 				} catch (IOException e1) {
@@ -101,6 +116,8 @@ public class GUI {
 			}
 		});
 	}
+	
+	//160x90, 1280x960
 
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("GUI");
@@ -153,7 +170,7 @@ public class GUI {
 								| com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW,
 						null, null, null, 0, false));
 		widthText = new JTextField();
-		widthText.setText("945");
+		widthText.setText("160");
 		buttonPanel.add(widthText,
 				new com.intellij.uiDesigner.core.GridConstraints(3, 0, 1, 1,
 						com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST,
@@ -162,7 +179,7 @@ public class GUI {
 						com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1),
 						null, 0, false));
 		heightText = new JTextField();
-		heightText.setText("531");
+		heightText.setText("90");
 		buttonPanel.add(heightText,
 				new com.intellij.uiDesigner.core.GridConstraints(5, 0, 1, 1,
 						com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST,
@@ -171,7 +188,7 @@ public class GUI {
 						com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1),
 						null, 0, false));
 		widthLabel = new JLabel();
-		widthLabel.setText("Width");
+		widthLabel.setText("Width (160/1280)");
 		buttonPanel.add(widthLabel,
 				new com.intellij.uiDesigner.core.GridConstraints(2, 0, 1, 1,
 						com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST,
@@ -179,7 +196,7 @@ public class GUI {
 						com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED,
 						com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
 		heightLabel = new JLabel();
-		heightLabel.setText("Height");
+		heightLabel.setText("Height (90/960)");
 		buttonPanel.add(heightLabel,
 				new com.intellij.uiDesigner.core.GridConstraints(4, 0, 1, 1,
 						com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST,
@@ -196,7 +213,7 @@ public class GUI {
 						com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1),
 						null, 0, false));
 		frequencyLabel = new JLabel();
-		frequencyLabel.setText("Frequency / frame rate");
+		frequencyLabel.setText("Frequency (25/30)");
 		buttonPanel.add(frequencyLabel,
 				new com.intellij.uiDesigner.core.GridConstraints(6, 0, 1, 1,
 						com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST,

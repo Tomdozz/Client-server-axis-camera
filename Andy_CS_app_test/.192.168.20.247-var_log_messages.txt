@@ -30,32 +30,19 @@
 2018-10-11T14:11:05.810+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
 2018-10-11T14:14:48.933+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
 2018-10-11T14:17:54.883+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:17:54.969+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:23:17.874+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:23:17.959+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:26:42.764+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:26:42.849+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:28:08.051+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:28:08.138+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:29:42.588+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:29:42.679+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:31:39.348+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:31:39.439+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:33:26.676+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:33:26.759+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:35:53.000+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
 2018-10-11T14:40:41.957+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:40:42.042+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:42:12.373+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:42:12.379+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:48:31.941+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:48:31.949+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:54:34.574+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:54:34.658+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T14:55:54.140+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T14:55:54.236+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T15:00:24.317+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
-2018-10-11T15:00:24.408+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T15:08:12.423+02:00 axis-00408ce8dd13 [ WARNING ] cam_server: sdk_format only to be used with IMAGE_UNCOMPRESSED.
 2018-10-11T15:08:12.519+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T15:12:09.346+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
@@ -76,236 +63,394 @@
 2018-10-11T16:15:15.767+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T16:21:16.789+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
 2018-10-11T16:22:34.419+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
-2018-10-12T09:59:18.055+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 44922
-2018-10-12T09:59:28.761+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T09:59:28.762+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 50900
-2018-10-12T09:59:44.690+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-12T09:59:44.735+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-12T09:59:45.704+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-12T09:59:46.119+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-12T09:59:55.154+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nys_1_0_mipsisa32r2el.eap' size:36506
-2018-10-12T09:59:56.600+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-12T09:59:56.753+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nys_1_0_mipsisa32r2el.eap installation OK
-2018-10-12T10:00:00.640+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-12T10:00:00.926+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-12T10:00:01.076+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-12T10:00:01.078+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
-2018-10-12T10:00:13.750+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 50916
-2018-10-12T10:00:13.752+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:00:13.757+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:00:13.762+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:00:14.851+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 45069
-2018-10-12T10:00:14.852+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 45069
-2018-10-12T10:00:27.187+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:00:27.188+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 50916
-2018-10-12T10:02:47.998+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 50937
-2018-10-12T10:02:47.999+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:02:48.004+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:02:48.004+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:02:49.843+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 44734
-2018-10-12T10:02:49.844+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 44734
-2018-10-12T10:02:52.094+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:02:52.095+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 50937
-2018-10-12T10:35:21.908+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51168
-2018-10-12T10:35:21.915+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:35:21.915+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:35:21.916+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:35:23.739+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43818
-2018-10-12T10:35:23.740+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43818
-2018-10-12T10:35:26.408+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:35:26.409+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51168
-2018-10-12T10:44:01.938+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51624
-2018-10-12T10:44:01.939+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:44:01.942+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:44:01.946+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:44:03.712+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43343
-2018-10-12T10:44:03.713+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43343
-2018-10-12T10:44:10.054+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:44:10.054+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51624
-2018-10-12T10:47:54.300+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51663
-2018-10-12T10:47:54.301+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:47:54.305+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:47:54.307+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:47:55.698+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43188
-2018-10-12T10:47:55.699+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43188
-2018-10-12T10:48:00.852+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:48:00.853+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51663
-2018-10-12T10:48:09.370+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51664
-2018-10-12T10:48:09.371+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:48:09.385+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:48:09.385+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:48:10.699+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43400
-2018-10-12T10:48:10.700+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43400
-2018-10-12T10:48:13.933+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:48:13.935+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51664
-2018-10-12T10:48:21.041+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51665
-2018-10-12T10:48:21.043+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:48:21.047+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:48:21.050+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:48:22.699+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43347
-2018-10-12T10:48:22.700+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43347
-2018-10-12T10:48:26.062+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:48:26.063+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51665
-2018-10-12T10:49:04.447+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51666
-2018-10-12T10:49:04.448+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:49:04.451+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:49:04.455+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:49:05.698+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43355
-2018-10-12T10:49:05.699+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43355
-2018-10-12T10:49:11.319+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:49:11.320+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51666
-2018-10-12T10:49:25.314+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51667
-2018-10-12T10:49:25.317+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:49:25.327+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:49:25.328+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:49:26.693+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43271
-2018-10-12T10:49:26.699+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43271
-2018-10-12T10:49:50.311+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:49:50.311+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51667
-2018-10-12T10:50:40.122+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51684
-2018-10-12T10:50:40.124+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:50:40.130+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:50:40.130+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:50:41.691+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43353
-2018-10-12T10:50:41.692+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43353
-2018-10-12T10:51:23.735+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
-2018-10-12T10:51:23.736+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51684
-2018-10-12T10:52:42.934+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51688
-2018-10-12T10:52:42.935+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:52:42.941+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:52:42.942+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:52:44.686+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43226
-2018-10-12T10:52:44.689+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43226
-2018-10-12T10:53:04.468+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:53:04.469+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51688
-2018-10-12T10:54:14.195+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51696
-2018-10-12T10:54:14.196+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:54:14.202+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:54:14.203+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:54:15.678+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43082
-2018-10-12T10:54:15.682+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43082
-2018-10-12T10:54:23.771+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:54:23.771+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51696
-2018-10-12T10:54:36.576+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51697
-2018-10-12T10:54:36.579+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:54:36.583+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:54:36.587+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:54:37.679+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43209
-2018-10-12T10:54:37.680+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43209
-2018-10-12T10:54:45.229+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:54:45.231+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51697
-2018-10-12T10:54:59.467+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T10:54:59.467+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51698
-2018-10-12T10:54:59.471+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T10:54:59.472+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T10:55:00.677+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43183
-2018-10-12T10:55:00.678+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43183
-2018-10-12T10:55:06.118+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T10:55:06.119+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51698
-2018-10-12T11:02:56.667+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-12T11:02:56.712+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-12T11:06:45.036+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nys_1_0_mipsisa32r2el.eap' size:36774
-2018-10-12T11:06:46.094+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-12T11:06:46.443+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-12T11:06:47.716+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nys_1_0_mipsisa32r2el.eap installation OK
-2018-10-12T11:06:47.733+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-12T11:06:51.423+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-12T11:06:51.714+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-12T11:06:51.865+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-12T11:06:51.867+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
-2018-10-12T11:06:58.036+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51743
-2018-10-12T11:06:58.039+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T11:06:58.045+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T11:06:58.045+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T11:06:59.139+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43266
-2018-10-12T11:06:59.148+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43266
-2018-10-12T11:07:00.140+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43270
-2018-10-12T11:07:00.144+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43270
-2018-10-12T11:07:01.138+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43290
-2018-10-12T11:07:01.147+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43290
-2018-10-12T11:07:02.143+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43278
-2018-10-12T11:07:02.144+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43278
-2018-10-12T11:07:03.142+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43222
-2018-10-12T11:07:03.142+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43222
-2018-10-12T11:07:04.141+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43257
-2018-10-12T11:07:04.141+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43257
-2018-10-12T11:07:05.138+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43199
-2018-10-12T11:07:05.144+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43199
-2018-10-12T11:07:06.138+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43299
-2018-10-12T11:07:06.142+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43299
-2018-10-12T11:07:07.138+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43267
-2018-10-12T11:07:07.143+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43267
-2018-10-12T11:07:57.487+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T11:07:57.490+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51743
-2018-10-12T11:12:48.676+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-12T11:12:48.720+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-12T11:12:58.269+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nys_1_0_mipsisa32r2el.eap' size:36723
-2018-10-12T11:12:59.330+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-12T11:13:00.962+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nys_1_0_mipsisa32r2el.eap installation OK
-2018-10-12T11:13:00.964+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-12T11:13:05.444+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-12T11:13:05.734+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-12T11:13:05.892+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-12T11:13:05.894+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
-2018-10-12T11:13:11.241+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51795
-2018-10-12T11:13:11.242+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T11:13:11.249+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T11:13:11.250+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T11:13:12.321+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43162
-2018-10-12T11:13:12.326+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43162
-2018-10-12T11:13:13.324+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43130
-2018-10-12T11:13:13.325+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43130
-2018-10-12T11:13:14.323+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43191
-2018-10-12T11:13:14.323+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43191
-2018-10-12T11:13:15.321+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43098
-2018-10-12T11:13:15.321+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43098
-2018-10-12T11:13:16.321+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43213
-2018-10-12T11:13:16.321+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43213
-2018-10-12T11:13:17.319+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43178
-2018-10-12T11:13:17.323+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43178
-2018-10-12T11:13:18.318+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43193
-2018-10-12T11:13:18.324+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43193
-2018-10-12T11:13:19.319+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43174
-2018-10-12T11:13:19.324+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 0
-2018-10-12T11:13:19.324+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43174
-2018-10-12T11:13:19.325+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51795
-2018-10-12T11:14:21.870+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nys_1_0_mipsisa32r2el.eap' size:36773
-2018-10-12T11:14:22.191+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-12T11:14:22.235+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-12T11:14:23.213+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-12T11:14:24.906+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nys_1_0_mipsisa32r2el.eap installation OK
-2018-10-12T11:14:24.908+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
-2018-10-12T11:14:28.020+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server start
-2018-10-12T11:14:28.320+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: starting cam_server
-2018-10-12T11:14:28.479+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: installing server version 3
-2018-10-12T11:14:28.481+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: waiting for connections...
-2018-10-12T11:14:35.302+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Adding to list of sockets as 0
-2018-10-12T11:14:35.302+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: New connection, socket descriptor is 5, ip is: 192.168.20.229, port: 51802
-2018-10-12T11:14:35.307+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: 12
-2018-10-12T11:14:35.311+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Width: 945, Height: 531, Freq: 1
-2018-10-12T11:14:36.381+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43072
-2018-10-12T11:14:36.382+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43072
-2018-10-12T11:14:37.387+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 42996
-2018-10-12T11:14:37.389+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 42996
-2018-10-12T11:14:38.384+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43097
-2018-10-12T11:14:38.385+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43097
-2018-10-12T11:14:39.382+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43134
-2018-10-12T11:14:39.383+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43134
-2018-10-12T11:14:40.383+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43135
-2018-10-12T11:14:40.384+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43135
-2018-10-12T11:14:41.381+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43082
-2018-10-12T11:14:41.388+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43082
-2018-10-12T11:14:42.383+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43191
-2018-10-12T11:14:42.384+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43191
-2018-10-12T11:14:43.383+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43113
-2018-10-12T11:14:43.384+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43113
-2018-10-12T11:14:44.380+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Getting 100 frames. resolution: 1280x960 framesize: 43001
-2018-10-12T11:14:44.382+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: img_size is 43001
-2018-10-12T11:15:00.340+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Characters read: -1
-2018-10-12T11:15:00.341+02:00 axis-00408ce8dd13 [ INFO    ] cam_server: Disconnected, ip: 192.168.20.229, port: 51802
-2018-10-12T11:16:28.874+02:00 axis-00408ce8dd13 [ INFO    ] control.cgi: calling: /etc/init.d/sdkcam_server stop
-2018-10-12T11:16:28.919+02:00 axis-00408ce8dd13 [ INFO    ] cam_server[0]: stopping cam_server
-2018-10-12T11:21:59.542+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Uploaded '/tmp/nys_1_0_mipsisa32r2el.eap' size:36814
-2018-10-12T11:22:00.614+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: [system] Reloaded configuration
-2018-10-12T11:22:02.252+02:00 axis-00408ce8dd13 [ INFO    ] upload.cgi: Package /tmp/nys_1_0_mipsisa32r2el.eap installation OK
-2018-10-12T11:22:02.254+02:00 axis-00408ce8dd13 [ NOTICE  ] dbus[429]: message repeated 2 times: [ [system] Reloaded configuration]
+2018-10-12T11:22:14.630+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T12:21:38.709+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T13:31:17.825+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:18.219+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3963
+2018-10-12T13:31:18.223+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:18.294+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:21.227+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3963
+2018-10-12T13:31:21.230+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 6 times: [ before while j<= freq]
+2018-10-12T13:31:21.317+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3956
+2018-10-12T13:31:21.319+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3963]
+2018-10-12T13:31:21.336+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:21.343+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3961
+2018-10-12T13:31:21.344+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3948
+2018-10-12T13:31:21.344+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:21.345+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3967
+2018-10-12T13:31:21.345+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:21.345+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:21.347+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3965
+2018-10-12T13:31:21.348+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3979
+2018-10-12T13:31:21.348+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:21.349+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:21.708+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3965
+2018-10-12T13:31:21.708+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:21.722+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:23.725+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3965
+2018-10-12T13:31:23.734+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 4 times: [ before while j<= freq]
+2018-10-12T13:31:23.803+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3963
+2018-10-12T13:31:23.803+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:23.805+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3965]
+2018-10-12T13:31:23.809+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3951
+2018-10-12T13:31:23.810+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:23.822+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3957
+2018-10-12T13:31:23.822+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:23.823+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3965
+2018-10-12T13:31:23.823+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:24.211+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3980
+2018-10-12T13:31:24.212+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:24.221+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:27.223+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3980
+2018-10-12T13:31:27.225+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 6 times: [ before while j<= freq]
+2018-10-12T13:31:27.313+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3965
+2018-10-12T13:31:27.315+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3980]
+2018-10-12T13:31:27.322+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3968
+2018-10-12T13:31:27.323+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:27.323+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:27.330+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3965
+2018-10-12T13:31:27.337+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:27.352+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3957
+2018-10-12T13:31:27.352+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3964
+2018-10-12T13:31:27.352+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:27.353+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3973
+2018-10-12T13:31:27.353+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:27.353+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:27.707+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3957
+2018-10-12T13:31:27.708+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:27.722+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:29.722+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3957
+2018-10-12T13:31:29.724+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 4 times: [ before while j<= freq]
+2018-10-12T13:31:29.806+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3959
+2018-10-12T13:31:29.806+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:29.808+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3957]
+2018-10-12T13:31:29.815+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3968
+2018-10-12T13:31:29.815+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:29.816+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3972
+2018-10-12T13:31:29.816+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:29.836+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3975
+2018-10-12T13:31:29.836+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:30.206+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3969
+2018-10-12T13:31:30.206+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:30.221+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:33.224+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3969
+2018-10-12T13:31:33.226+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 6 times: [ before while j<= freq]
+2018-10-12T13:31:33.317+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3967
+2018-10-12T13:31:33.318+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:33.321+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3969]
+2018-10-12T13:31:33.331+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3961
+2018-10-12T13:31:33.332+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:33.333+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3972
+2018-10-12T13:31:33.333+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:33.346+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3980
+2018-10-12T13:31:33.351+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:33.356+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3988
+2018-10-12T13:31:33.356+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:33.357+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3965
+2018-10-12T13:31:33.358+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:33.704+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3983
+2018-10-12T13:31:33.705+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:33.721+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:35.724+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3983
+2018-10-12T13:31:35.726+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 4 times: [ before while j<= freq]
+2018-10-12T13:31:35.802+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3977
+2018-10-12T13:31:35.803+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:35.805+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3983]
+2018-10-12T13:31:35.810+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3983
+2018-10-12T13:31:35.810+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:35.822+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3974
+2018-10-12T13:31:35.823+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:35.831+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3971
+2018-10-12T13:31:35.834+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:36.228+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3981
+2018-10-12T13:31:36.229+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:36.274+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:39.223+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3981
+2018-10-12T13:31:39.226+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 6 times: [ before while j<= freq]
+2018-10-12T13:31:39.322+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3973
+2018-10-12T13:31:39.323+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:39.328+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3960
+2018-10-12T13:31:39.329+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:39.329+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3981]
+2018-10-12T13:31:39.341+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3973
+2018-10-12T13:31:39.342+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3976
+2018-10-12T13:31:39.342+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:39.343+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:39.353+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3972
+2018-10-12T13:31:39.354+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:39.359+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3969
+2018-10-12T13:31:39.360+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:39.704+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3973
+2018-10-12T13:31:39.705+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:39.721+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:41.720+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3973
+2018-10-12T13:31:41.722+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 4 times: [ before while j<= freq]
+2018-10-12T13:31:41.802+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3968
+2018-10-12T13:31:41.803+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:41.804+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3973]
+2018-10-12T13:31:41.814+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3973
+2018-10-12T13:31:41.815+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3965
+2018-10-12T13:31:41.815+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:41.819+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:41.827+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3957
+2018-10-12T13:31:41.828+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:42.212+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:45.223+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3986
+2018-10-12T13:31:45.225+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 6 times: [ before while j<= freq]
+2018-10-12T13:31:45.317+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:45.319+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 8 times: [ Inside loop with size: 3986]
+2018-10-12T13:31:45.337+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3956
+2018-10-12T13:31:45.338+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3950
+2018-10-12T13:31:45.338+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:45.339+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3968
+2018-10-12T13:31:45.339+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:45.339+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:45.361+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3967
+2018-10-12T13:31:45.362+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3971
+2018-10-12T13:31:45.362+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:45.363+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:45.364+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3960
+2018-10-12T13:31:45.365+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:45.705+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3981
+2018-10-12T13:31:45.705+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:45.723+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:47.222+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3981
+2018-10-12T13:31:47.229+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 3 times: [ before while j<= freq]
+2018-10-12T13:31:47.301+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3967
+2018-10-12T13:31:47.302+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3977
+2018-10-12T13:31:47.302+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:47.302+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:47.303+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3981]
+2018-10-12T13:31:47.312+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3951
+2018-10-12T13:31:47.312+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:47.706+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3973
+2018-10-12T13:31:47.706+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:47.721+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:51.219+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3973
+2018-10-12T13:31:51.221+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ before while j<= freq]
+2018-10-12T13:31:51.320+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3962
+2018-10-12T13:31:51.321+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3968
+2018-10-12T13:31:51.321+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:51.321+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:51.345+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3964
+2018-10-12T13:31:51.345+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:51.346+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3951
+2018-10-12T13:31:51.346+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3986
+2018-10-12T13:31:51.346+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:51.348+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:51.348+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3973]
+2018-10-12T13:31:51.357+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3972
+2018-10-12T13:31:51.358+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:51.364+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3966
+2018-10-12T13:31:51.365+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:51.704+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3961
+2018-10-12T13:31:51.705+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:51.720+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:53.222+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3961
+2018-10-12T13:31:53.225+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 3 times: [ before while j<= freq]
+2018-10-12T13:31:53.299+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3976
+2018-10-12T13:31:53.300+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:53.301+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3961]
+2018-10-12T13:31:53.304+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3952
+2018-10-12T13:31:53.305+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:53.308+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3965
+2018-10-12T13:31:53.309+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:53.738+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3967
+2018-10-12T13:31:53.738+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:53.775+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:57.225+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3967
+2018-10-12T13:31:57.230+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ before while j<= freq]
+2018-10-12T13:31:57.317+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3962
+2018-10-12T13:31:57.318+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:57.319+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3984
+2018-10-12T13:31:57.322+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3967]
+2018-10-12T13:31:57.340+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3966
+2018-10-12T13:31:57.340+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:57.341+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3964
+2018-10-12T13:31:57.341+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:57.342+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3963
+2018-10-12T13:31:57.342+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:57.357+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:57.358+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3959
+2018-10-12T13:31:57.358+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3978
+2018-10-12T13:31:57.358+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:57.359+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:57.703+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3976
+2018-10-12T13:31:57.704+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:57.719+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:31:59.220+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3976
+2018-10-12T13:31:59.221+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 3 times: [ before while j<= freq]
+2018-10-12T13:31:59.305+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3957
+2018-10-12T13:31:59.305+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3975
+2018-10-12T13:31:59.306+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:59.306+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:59.310+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3976]
+2018-10-12T13:31:59.316+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3974
+2018-10-12T13:31:59.317+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:59.704+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3987
+2018-10-12T13:31:59.705+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:31:59.720+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:32:03.222+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3987
+2018-10-12T13:32:03.224+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ before while j<= freq]
+2018-10-12T13:32:03.317+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3986
+2018-10-12T13:32:03.318+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3974
+2018-10-12T13:32:03.318+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:03.321+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3987]
+2018-10-12T13:32:03.327+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:03.328+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3970
+2018-10-12T13:32:03.328+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:03.337+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3964
+2018-10-12T13:32:03.338+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:03.346+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3966
+2018-10-12T13:32:03.347+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:03.351+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3975
+2018-10-12T13:32:03.351+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:03.368+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3983
+2018-10-12T13:32:03.372+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:03.702+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3959
+2018-10-12T13:32:03.703+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:03.721+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:32:05.222+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3959
+2018-10-12T13:32:05.224+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 3 times: [ before while j<= freq]
+2018-10-12T13:32:05.307+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3968
+2018-10-12T13:32:05.308+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3975
+2018-10-12T13:32:05.308+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:05.310+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3959]
+2018-10-12T13:32:05.316+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:05.317+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3972
+2018-10-12T13:32:05.318+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:05.704+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3979
+2018-10-12T13:32:05.705+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:05.720+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:32:09.222+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3979
+2018-10-12T13:32:09.224+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ before while j<= freq]
+2018-10-12T13:32:09.318+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3966
+2018-10-12T13:32:09.319+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:09.319+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:09.326+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 8 times: [ Inside loop with size: 3979]
+2018-10-12T13:32:09.344+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3981
+2018-10-12T13:32:09.345+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3974
+2018-10-12T13:32:09.345+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:09.346+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3972
+2018-10-12T13:32:09.346+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:09.347+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:09.359+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3981
+2018-10-12T13:32:09.360+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3971
+2018-10-12T13:32:09.360+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:09.361+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:09.704+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3964
+2018-10-12T13:32:09.706+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:09.720+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: before while j<= freq
+2018-10-12T13:32:11.220+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3964
+2018-10-12T13:32:11.222+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 3 times: [ before while j<= freq]
+2018-10-12T13:32:11.302+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3961
+2018-10-12T13:32:11.303+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:11.304+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3983
+2018-10-12T13:32:11.305+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:32:11.306+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: message repeated 7 times: [ Inside loop with size: 3964]
+2018-10-12T13:32:11.318+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: Inside loop with size: 3946
+2018-10-12T13:32:11.319+02:00 axis-00408ce8dd13 [ INFO    ] lgServer: capture start
+2018-10-12T13:36:03.401+02:00 axis-00408ce8dd13 [ WARNING ] systemd[1]: monolith.service: Failed with result 'signal'.
+2018-10-12T13:36:03.537+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T13:37:23.917+02:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 19 times: [potentially unexpected fatal signal 11.]
+2018-10-12T15:04:42.758+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T16:52:07.601+02:00 axis-00408ce8dd13 [ WARNING ] kernel: systemd-journald[144]: /dev/kmsg buffer overrun, some messages lost.
+2018-10-12T16:52:07.745+02:00 axis-00408ce8dd13 [ WARNING ] kernel: systemd-journald[144]: /dev/kmsg buffer overrun, some messages lost.
+2018-10-12T16:52:19.568+02:00 axis-00408ce8dd13 [ WARNING ] systemd[1]: monolith.service: Failed with result 'signal'.
+2018-10-12T16:52:20.349+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T16:52:22.019+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T20:35:27.832+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T20:38:11.148+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T20:55:08.427+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T20:56:45.808+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T20:59:47.166+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T21:02:16.889+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T21:08:43.599+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T21:46:37.978+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-12T21:51:27.898+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-13T14:19:42.659+02:00 axis-00408ce8dd13 [ WARNING ] systemd[1]: monolith.service: Failed with result 'signal'.
+2018-10-13T14:19:43.838+02:00 axis-00408ce8dd13 [ INFO    ] kernel: potentially unexpected fatal signal 11.
+2018-10-13T14:21:03.757+02:00 axis-00408ce8dd13 [ INFO    ] kernel: message repeated 10 times: [potentially unexpected fatal signal 11.]
+2018-10-13T15:40:42.658+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1761
+2018-10-13T15:40:42.680+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1761
+2018-10-13T15:40:42.681+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1761
+2018-10-13T15:40:43.654+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1753
+2018-10-13T15:40:43.655+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1753
+2018-10-13T15:40:43.660+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1753
+2018-10-13T15:40:43.663+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1753
+2018-10-13T15:40:44.656+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1757
+2018-10-13T15:40:44.656+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1757
+2018-10-13T15:40:44.663+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1757
+2018-10-13T15:40:44.664+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1757
+2018-10-13T15:40:45.656+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1749
+2018-10-13T15:40:45.657+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1749
+2018-10-13T15:40:45.663+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1749
+2018-10-13T15:40:45.665+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1749
+2018-10-13T15:40:46.656+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1747
+2018-10-13T15:40:46.658+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1747
+2018-10-13T15:40:46.666+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1747
+2018-10-13T15:40:46.666+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1747
+2018-10-13T15:40:47.657+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1747
+2018-10-13T15:40:47.658+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1747
+2018-10-13T15:40:47.667+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1747
+2018-10-13T15:40:47.668+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1747
+2018-10-13T15:40:48.657+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1744
+2018-10-13T15:40:48.661+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1744
+2018-10-13T15:40:48.668+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1744
+2018-10-13T15:40:48.669+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1744
+2018-10-13T15:40:49.657+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1753
+2018-10-13T15:40:49.661+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1753
+2018-10-13T15:40:49.670+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1753
+2018-10-13T15:40:49.671+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1753
+2018-10-13T15:40:50.660+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1749
+2018-10-13T15:40:50.661+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1749
+2018-10-13T15:40:50.668+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1749
+2018-10-13T15:40:50.672+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1749
+2018-10-13T15:40:51.665+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1746
+2018-10-13T15:40:51.669+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1746
+2018-10-13T15:40:51.677+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1746
+2018-10-13T15:40:51.678+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1746
+2018-10-13T15:40:52.663+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1752
+2018-10-13T15:40:52.664+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1752
+2018-10-13T15:40:52.674+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1752
+2018-10-13T15:40:52.675+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1752
+2018-10-13T15:40:53.665+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1751
+2018-10-13T15:40:53.666+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1751
+2018-10-13T15:40:53.674+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1751
+2018-10-13T15:40:53.675+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1751
+2018-10-13T15:40:54.666+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1757
+2018-10-13T15:40:54.667+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1757
+2018-10-13T15:40:54.675+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1757
+2018-10-13T15:40:54.676+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1757
+2018-10-13T15:40:55.665+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1750
+2018-10-13T15:40:55.665+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1750
+2018-10-13T15:40:55.675+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1750
+2018-10-13T15:40:55.676+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1750
+2018-10-13T15:40:56.667+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1750
+2018-10-13T15:40:56.668+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1750
+2018-10-13T15:40:56.677+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1750
+2018-10-13T15:40:56.678+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1750
+2018-10-13T15:40:57.668+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1754
+2018-10-13T15:40:57.669+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1754
+2018-10-13T15:40:57.678+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1754
+2018-10-13T15:40:57.679+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1754
+2018-10-13T15:40:58.670+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1743
+2018-10-13T15:40:58.671+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1743
+2018-10-13T15:40:58.677+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1743
+2018-10-13T15:40:58.688+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1743
+2018-10-13T15:40:59.668+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1758
+2018-10-13T15:40:59.671+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1758
+2018-10-13T15:40:59.677+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1758
+2018-10-13T15:40:59.682+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1758
+2018-10-13T15:41:00.669+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1756
+2018-10-13T15:41:00.670+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1756
+2018-10-13T15:41:00.677+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1756
+2018-10-13T15:41:00.682+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1756
+2018-10-13T15:41:01.668+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1752
+2018-10-13T15:41:01.668+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1752
+2018-10-13T15:41:01.671+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Characters read: 0
+2018-10-13T15:41:01.672+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Disconnected, ip: 192.168.20.229, port: 34300
+2018-10-13T15:41:02.669+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Getting 100 frames. resolution: 160x90 framesize: 1741
+2018-10-13T15:41:02.670+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Characters read: 0
+2018-10-13T15:41:02.670+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: img_size is 1741
+2018-10-13T15:41:02.671+02:00 axis-00408ce8dd13 [ ERR     ] cam_server: Disconnected, ip: 192.168.20.229, port: 34300
